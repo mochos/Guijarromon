@@ -1,0 +1,1717 @@
+[10:21:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[10:21:43] [ForkJoinPool-1-worker-9/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[10:21:43] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic FPS' (dynamic_fps) 3.4.3 recommends any version of quilt_loader, which is missing!
+	 - You should install any version of quilt_loader for the optimal experience.
+ - Mod 'LambDynamicLights' (lambdynlights) 2.3.2+1.20.1 recommends version 0.19.1 or later of quilt_loader, which is missing!
+	 - You should install version 0.19.1 or later of quilt_loader for the optimal experience.
+ - Mod 'More Culling' (moreculling) 1.20.4-0.24.0 conflicts with any version of mod 'Cull Less Leaves' (cull-less-leaves), which is present with the following versions: 1.3.0!
+	 - While this won't prevent you from starting the game, the developer(s) of mod 'More Culling' (moreculling) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
+[10:21:43] [main/INFO]: Loading 231 mods:
+	- advanced-xray-fabric 1.20.1-1.6.0-build.17
+	- advancementinfo 1.20-fabric0.83.0-1.4
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- balm-fabric 7.2.2
+	- bedrockify 1.9.1+mc1.20
+	   \-- panorama_screens 1.0+fabric+mc1.20
+	- betterpingdisplay 1.1.1
+	- bobby 5.0.1
+	   |-- com_typesafe_config 1.4.2
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   \-- org_spongepowered_configurate-hocon 4.1.2
+	- bookshelf 20.1.10
+	- bwncr 3.17.0
+	- cavedust 1.4.1
+	- chat_heads 0.13.3
+	- cherishedworlds 6.1.6+1.20.1
+	- chunksfadein 1.0.7-1.20.1
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- crowdin-translate 1.4+1.19.3
+	- cicada 0.7.1+1.20.1
+	- cleancut 6.0+mc1.19.1-mc1.20.x
+	- cleardespawn 1.1.15
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.4
+	- cmdkeybind 1.6.3-1.20
+	   \-- kyrptconfig 1.5.6-1.20
+	- cobblemon 1.5.2+1.20.1
+	- collective 7.57
+	- continuity 3.0.0-beta.5+1.20.1
+	- craftingtweaks 18.2.3
+	- craftpresence 2.3.9
+	   \-- fabric-resource-loader-v0 0.11.10+1802ada577
+	- ctrl-q 1.9
+	- cull-less-leaves 1.3.0
+	- cupboard 1.20.1-2.6
+	- dynamic_fps 3.4.3
+	- dynamiccrosshair 7.4.4+1.20
+	   \-- yaclx 1.12+1.20.2
+	- eatinganimationid 1.20+1.9.61
+	- emotecraft 2.2.7-b.build.50
+	   |-- bendy-lib 4.0.0
+	   \-- player-animator 1.0.2-rc1+1.20
+	- enchdesc 17.0.14
+	- enhanced_attack_indicator 1.0.4+1.20
+	- enhancedblockentities 0.9+1.20
+	   |-- advanced_runtime_resource_pack 0.6.7
+	   \-- spruceui 5.0.0+1.20
+	- entity_model_features 2.2.6
+	- entity_texture_features 6.2.5
+	   \-- org_apache_httpcomponents_httpmime 4.5.10
+	- entityculling 1.6.2-mc1.20.1
+	- euphoria_patcher 1.4.3-r5.3-fabric
+	   \-- io_sigpipe_jbsdiff 1.0
+	- explosiveenhancement 1.2.2-1.20.x
+	- fabric-api 0.92.1+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.10.20+kotlin.1.9.24
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.24
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.24
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.24
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.24
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- fallingleaves 1.15.6
+	- fancymenu 3.2.2
+	   |-- com_github_keksuccino_japng 0.5.3
+	   \-- com_github_rtyley_animated-gif-lib-for-java animated-gif-lib-1.7
+	- farsight 1.20.1-4.2
+	   \-- org_jctools_jctools-core 4.0.1
+	- faster_entity_animations 1.6
+	- ferritecore 6.0.1
+	- feytweaks 1.20-1.2.7
+	   \-- midnightlib 1.4.1
+	- forgeconfigapiport 8.0.0
+	- highlight 2.0.1
+	   \-- resourcefullib 2.0.7
+	        \-- com_teamresourceful_yabn 1.0.3
+	- highlighter 1.1.9
+	- iceberg 1.1.18
+	- immediatelyfast 1.2.21+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- indium 1.0.34+mc1.20.1
+	- invmove 0.8.4
+	- iris 1.7.2+mc1.20.1
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- jade 11.9.2+fabric
+	- java 21
+	- jei 15.3.0.4
+	- konkrete 1.8.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lambdynlights 2.3.2+1.20.1
+	   |-- pride 1.2.0+1.19.4
+	   \-- spruceui 5.0.0+1.20
+	- languagereload 1.5.10+1.20.1
+	- lazydfu 0.1.3
+	- leahs-immersive-thunder 1.20.1+1.2.2
+	- leawind_third_person 2.0.8-beta.5
+	   \-- mixinextras 0.3.5
+	- letmedespawn 1.2.0
+	- lithium 0.11.2
+	- longerchathistory 1.4
+	- macos_input_fixes 1.6
+	- make_bubbles_pop 0.3.0-fabric
+	- melody 1.0.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- modmenu 7.2.2
+	- monsters_in_the_closet 1.0.3+1.20
+	- moreculling 1.20.4-0.24.0
+	   |-- conditional-mixin 0.3.2
+	   \-- mixinsquared 0.1.1
+	- netherportalfix 13.0.1
+	- no-name-tags 1.1.0
+	- notenoughanimations 1.7.3
+	- offlineskins 1.20.1-v1a-fabric
+	- owo 0.11.2+1.20
+	   \-- blue_endless_jankson 1.2.2
+	- paperdoll 1.2.1
+	- particular 1.1.1
+	- presencefootsteps 1.9.3
+	   \-- kirin 1.15.6+1.20.1
+	- reeses-sodium-options 1.7.2+mc1.20.1-build.101
+	- roughlyenoughitems 12.1.725
+	   \-- error_notifier 1.0.9
+	- roughlyenoughprofessions 2.0.2
+	- roughlysearchable 2.6.0+1.20.1
+	- showmeyourskin 1.9.0+1.20
+	   |-- cardinal-components-base 5.2.1
+	   \-- cardinal-components-entity 5.2.1
+	- shulkerboxtooltip 4.0.4+1.20.1
+	- slimyfloor 1.20-1.2.8
+	- smoothscroll 2.1.3.1
+	- sodium 0.5.11+mc1.20.1
+	- sodium-extra 0.5.4+mc1.20.1-build.115
+	   |-- caffeineconfig 1.3.0+1.17
+	   \-- crowdin-translate 1.4+1.19.3
+	- sound_physics_remastered 1.20.1-1.4.5
+	- sspb 3.3.0
+	- starlight 1.1.2+fabric.dbc156f
+	- stendhal 1.4.1-1.20
+	   \-- libgui 8.0.1+1.20
+	        |-- jankson 5.0.1+j1.2.2
+	        \-- libninepatch 1.2.0
+	- superflatworldnoslimes 3.2
+	- sushi_bar 0.2.2+1.20
+	   \-- com_moulberry_mixinconstraints 1.0.1
+	- titlefixer 1.0+1.20.1
+	- toolstats 16.0.8
+	- tooltipfix 1.1.1-1.20
+	- visuality 0.7.1+1.20
+	- voicechat 1.20.1-2.5.17
+	- waterdripsound 1.19-0.3.2
+	- waveycapes 1.4.6
+	- worldedit 7.2.15+6463-5ca4dff
+	- worldeditcui 1.20+01
+	- xaerominimap 24.1.1
+	- xaeroworldmap 1.38.4
+	- yet_another_config_lib_v3 3.4.2+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yosbr 0.1.2
+	- zoomify 2.13.5+1.20.1
+	   |-- com_akuleshov7_ktoml-core-jvm 0.5.1
+	   |-- dev_isxander_settxi_settxi-core 2.10.6
+	   \-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.6
+[10:21:44] [main/INFO]: Applying default options... (YOSBR)
+[10:21:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/Aplicaciones/PolyMC/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[10:21:44] [main/INFO]: Compatibility level set to JAVA_17
+[10:21:45] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:21:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
+[10:21:45] [main/WARN]: Reference map 'LongerChatHistory-fabric-refmap.json' for longerchathistory.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:21:45] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:21:45] [main/WARN]: Reference map 'panorama_screens-fabric-refmap.json' for panorama_screen.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:21:45] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[10:21:45] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[10:21:45] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/quad/blender/LinearColorBlender (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/quad/blender/LinearColorBlender)
+[10:21:45] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/render/AbstractQuadRenderer (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/render/AbstractQuadRenderer)
+[10:21:45] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.client.indigo.renderer.render.AbstractQuadRenderer was not found bedrockify.mixins.json:client.features.bedrockShading.lightBlock.AbstractQuadRendererMixin from mod bedrockify
+[10:21:46] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[10:21:46] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[10:21:46] [main/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[10:21:46] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[10:21:46] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[10:21:46] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[10:21:46] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:21:46] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:21:46] [main/INFO]: [SSPB] Indium detected. Option to toggle vanilla path block lighting will be enabled unless modded dirt path rendering is detected
+[10:21:47] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[10:21:47] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[10:21:47] [main/INFO]: I used the json to destroy the json
+[10:21:48] [main/INFO]: Searching for graphics cards...
+[10:21:48] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='Radeon RX 5500 XT', adapterType=0x0000230B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0408380.inf_amd64_a2a50bd2d2429936\B408421\atig6pxx.dll', openglIcdVersion=32.0.12019.1028}
+[10:21:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[10:21:51] [main/INFO]: EuphoriaPatcher: Sodium found, using Sodium logging!
+[10:21:51] [main/INFO]: EuphoriaPatcher: [UPDATE CHECKER] The EuphoriaPatcher Mod is up to date
+[10:21:51] [main/INFO]: EuphoriaPatcher: Designing the quokka’s smile...
+[10:21:51] [main/INFO]: EuphoriaPatcher: EuphoriaPatches_1.4.3 is already installed.
+[10:21:51] [main/INFO]: 
+
+EuphoriaPatcher: Thank you for using Euphoria Patches - SpacEagle17
+
+[10:21:59] [Render thread/WARN]: Mixin stendhal.mixins.json:ChatScreenMixin from mod stendhal has multiple constructors, (Lnet/minecraft/class_2561;)V was selected
+[10:21:59] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:22:00] [Render thread/INFO]: Setting user: lorspi
+[10:22:00] [Render thread/INFO]: XRay mod has been initialized
+[10:22:00] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 152 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
+ Expected: [Ljava/lang/Object;, I, I, I, I, Lorg/joml/Vector2ic;]
+    Found: [I, I, I, I, Lorg/joml/Vector2ic;]
+Available: [I, I, I, I, Lorg/joml/Vector2ic;]
+[10:22:00] [Render thread/INFO]: Initializing BedrockIfy.
+[10:22:00] [Render thread/INFO]: BetterPingDisplay mod loaded
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[10:22:00] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[10:22:01] [Cicada thread 0/INFO]: 'codec good'
+[10:22:01] [Render thread/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[10:22:01] [Render thread/INFO]: Launching Cobblemon 1.5.2 
+[10:22:01] [Render thread/ERROR]: No data fixer registered for cobblemon:pokemon
+[10:22:01] [Render thread/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[10:22:01] [Render thread/ERROR]: No data fixer registered for cobblemon:boat
+[10:22:01] [Render thread/ERROR]: No data fixer registered for cobblemon:chest_boat
+[10:22:01] [Render thread/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+[10:22:02] [Render thread/INFO]: Starting the Best Spawner...
+[10:22:02] [Render thread/INFO]: Loaded 5 spawning condition types.
+[10:22:02] [Render thread/INFO]: Loaded 5 spawning context types.
+[10:22:02] [Render thread/INFO]: Loaded 1 spawn detail types.
+[10:22:03] [Cobblemon Showdown/INFO]: Starting showdown service...
+[10:22:07] [Cobblemon Showdown/INFO]: Showdown has been started!
+[10:22:07] [Render thread/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:species_features registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:global_species_features registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:species_feature_assignments registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:action_effects registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:moves registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:abilities registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:species registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:species_additions registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:pokeballs registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:properties_tab_completion registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:spawn_rules registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:mechanics registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:bag_items registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:dialogues registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:natural_materials registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:fossils registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:spawn_pool_world registry
+[10:22:07] [Render thread/INFO]: Registered the cobblemon:berries registry
+[10:22:07] [Render thread/INFO]: Loading Collective version 7.57.
+[10:22:07] [Render thread/INFO]: Loaded config for: cupboard.json
+[10:22:07] [Render thread/INFO]: [FANCYMENU] Loading v3.2.2 in client-side mode on FABRIC!
+[10:22:08] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[10:22:08] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[10:22:08] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[10:22:08] [Render thread/INFO]: Immersive Thunder loaded.
+[10:22:08] [Render thread/INFO]: MidnightLib detected!
+[10:22:08] [Render thread/INFO]: Make Bubbles Pop by Tschipcraft initialized!
+[10:22:08] [Render thread/INFO]: [MELODY] Loading Melody background audio library..
+[10:22:08] [Render thread/INFO]: Did you know that Air is made of 78 percent nitrogen and 21 percent oxygen?
+[10:22:09] [Render thread/INFO]: [REI] Config loaded
+[10:22:09] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider REPClientPlugin [roughlyenoughprofessions] for REIPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[10:22:09] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[10:22:09] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[10:22:09] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[10:22:09] [Render thread/INFO]: [Stendhal] Initializing
+[10:22:09] [Render thread/INFO]: Sushi of the day: Tsunamayo maki
+[10:22:09] [Render thread/INFO]: [voicechat] Compatibility version 18
+[10:22:09] [Render thread/INFO]: [voicechat] Loading plugins
+[10:22:09] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[10:22:09] [Render thread/INFO]: [voicechat] Initializing plugins
+[10:22:09] [Render thread/INFO]: Initializing Simple Voice Chat integration
+[10:22:09] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[10:22:09] [Render thread/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[10:22:10] [Render thread/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c0b330a]
+[10:22:10] [Render thread/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[10:22:10] [Render thread/INFO]: AdvancementInfo initialized
+[10:22:10] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[10:22:10] [Render thread/INFO]: Initializing BedrockIfy Client.
+[10:22:10] [Render thread/INFO]: Initialized BedrockIfy Client
+[10:22:10] [Render thread/INFO]: Initializing Cobblemon client
+[10:22:11] [Render thread/INFO]: Registering Pokémon renderer
+[10:22:11] [Render thread/INFO]: Registering PokéBall renderer
+[10:22:11] [Render thread/INFO]: Registering Boat renderer
+[10:22:11] [Render thread/INFO]: Registering Boat with Chest renderer
+[10:22:11] [Render thread/INFO]: Registering Generic Bedrock Entity renderer
+[10:22:11] [Render thread/INFO]: Registering custom BuiltinItemRenderers
+[10:22:11] [Render thread/INFO]: Loading CullLessLeavesConfig...
+[10:22:11] [CraftPresence/INFO]: Starting version check for "craftpresence" (MC 1.20.1) at "https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json"
+[10:22:11] [Render thread/INFO]: Dynamic FPS 3.4.3 active on Fabric!
+[10:22:11] [CraftPresence/INFO]: Received update status for "craftpresence" -> Outdated (Target version: "v2.5.1")
+[10:22:11] [Render thread/INFO]: Deserializing Config from 'D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\config\dynamiccrosshair.json5'
+[10:22:11] [Render thread/INFO]: Loaded config file.
+[10:22:11] [Render thread/INFO]: Saved config file.
+[10:22:12] [Render thread/INFO]: Loading Entity Model Features, we get there when we get there.
+[10:22:12] [Render thread/WARN]: Method overwrite conflict for getChildren in mixins.cobblemon-common.json:ModelPartMixin from mod cobblemon, previously written by io.github.kosmx.bendylib.mixin.IModelPartMixin. Skipping method.
+[10:22:12] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
+[10:22:12] [Render thread/INFO]: Loading Entity Texture Features, one of the mods ever made!
+[10:22:12] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[10:22:12] [Render thread/INFO]: farsight mod initialized
+[10:22:14] [Render thread/INFO]: Sending ConfigManager...
+[10:22:14] [Render thread/INFO]: Sending ConfigManager took 4.098 ms
+[10:22:14] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack 🚀
+[10:22:14] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[10:22:14] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[10:22:14] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[10:22:14] [Render thread/INFO]: Lamb Dynamic Lights compatibility enabled
+[10:22:14] [Render thread/INFO]: Loaded 0 hold_to_aim item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0  use_to_aim item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0 use_to_first_person item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0 hold_to_aim item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0  use_to_aim item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0 use_to_first_person item patterns from configuration
+[10:22:14] [Render thread/INFO]: Config is loaded from D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\config\leawind_third_person.json
+[10:22:14] [Render thread/INFO]: Loaded 0 hold_to_aim item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0  use_to_aim item patterns from configuration
+[10:22:14] [Render thread/INFO]: Loaded 0 use_to_first_person item patterns from configuration
+[10:22:14] [Render thread/WARN]: Using Cloth Config GUI
+[10:22:14] [Worker-Main-2/INFO]: Checking mod updates...
+[10:22:14] [CraftPresence/INFO]: Configuration settings have been saved and reloaded successfully!
+[10:22:14] [CraftPresence/INFO]: Checking for "atlauncher" pack data...
+[10:22:14] [CraftPresence/ERROR]: Unable to get "atlauncher" pack data (ignore if not using a "atlauncher" pack)
+[10:22:14] [CraftPresence/INFO]: Checking for "modrinth" pack data...
+[10:22:14] [CraftPresence/ERROR]: Unable to get "modrinth" pack data (ignore if not using a "modrinth" pack)
+[10:22:15] [Render thread/INFO]: Loading PaperDoll!
+[10:22:15] [CraftPresence/INFO]: Checking Discord for available assets with Client Id: 1042681781775769610
+[10:22:15] [CraftPresence/INFO]: Originally coded by paulhobbel - https://github.com/paulhobbel
+[10:22:15] [Render thread/INFO]: I am quite particular about the effects I choose to add :3
+[10:22:15] [CraftPresence/INFO]: 4 total assets detected!
+[10:22:15] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[10:22:15] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIClientPlugin
+[10:22:15] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[10:22:15] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[10:22:15] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[10:22:15] [Render thread/INFO]: [REI] Registered plugin provider REPClientPlugin [roughlyenoughprofessions] for REIClientPlugin
+[10:22:15] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[10:22:15] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[10:22:15] [Render thread/INFO]: SlimyFloor is a server side only mod (... for now ...)
+[10:22:15] [Render thread/INFO]: Config values:
+Hotbar speed: 0.2
+Chat speed: 0.5
+Chat Opening speed: 0.5
+Creative screen speed: 0.5
+Entry list speed: 0.5
+Mask debug enabled: false
+Config version: 2.1
+[10:22:15] [Render thread/INFO]: Reloading reverb parameters
+[10:22:15] [Render thread/INFO]: [SSPB] Broken dirt path lighting is best dirt path lighting lol
+[10:22:15] [Render thread/INFO]: Title Fixer started.
+[10:22:15] [Render thread/INFO]: Saving config to D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\config\toolstats.json.
+[10:22:15] [CraftPresence/INFO]: Attempting to connect to Discord (1/10)...
+[10:22:15] [CraftPresence/INFO]: Attempting to connect to Discord (2/10)...
+[10:22:15] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[10:22:15] [Render thread/INFO]: [voicechat] Loading Opus
+[10:22:15] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[10:22:16] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'voicechat@1.20.1-2.5.17', (-> fabric-1.20.1-2.5.26)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'jade@11.9.2+fabric', (-> 11.12.0+fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'bwncr@3.17.0', (-> 3.17.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'jei@15.3.0.4', (-> 15.20.0.105)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'craftpresence@2.3.9', (-> 2.5.1+1.20.1-fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'forgeconfigapiport@8.0.0', (-> v8.0.1-1.20.1-Fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'entityculling@1.6.2-mc1.20.1', (-> 1.7.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'languagereload@1.5.10+1.20.1', (-> 1.7.1+1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'iceberg@1.1.18', (-> 1.1.25)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'bookshelf@20.1.10', (-> 20.2.13)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'sspb@3.3.0', (-> 3.4.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'roughlyenoughitems@12.1.725', (-> 12.1.785+fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'cull-less-leaves@1.3.0', (-> 1.4.2+1.21-fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'fabric-language-kotlin@1.10.20+kotlin.1.9.24', (-> 1.12.3+kotlin.2.0.21)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'zoomify@2.13.5+1.20.1', (-> 2.14.2+1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'cicada@0.7.1+1.20.1', (-> 0.9.1+1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'superflatworldnoslimes@3.2', (-> 1.20.1-3.4-fabric+forge+neo)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'notenoughanimations@1.7.3', (-> 1.8.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'letmedespawn@1.2.0', (-> 1.4.4)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'fabric-api@0.92.1+1.20.1', (-> 0.92.2+1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'macos_input_fixes@1.6', (-> 1.7)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'immediatelyfast@1.2.21+1.20.4', (-> 1.3.2+1.20.4-fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'xaeroworldmap@1.38.4', (-> 1.39.0_Fabric_1.20)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'xaerominimap@24.1.1', (-> 24.6.1_Fabric_1.20)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'balm-fabric@7.2.2', (-> 7.3.9+fabric-1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'dynamic_fps@3.4.3', (-> 3.7.6)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'cavedust@1.4.1', (-> 3.0.0)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'fancymenu@3.2.2', (-> 3.3.2-1.20.1-fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'yet_another_config_lib_v3@3.4.2+1.20.1-fabric', (-> 3.6.1+1.20.1-fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'paperdoll@1.2.1', (-> 1.2.5)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'entity_texture_features@6.2.5', (-> 6.2.7)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'waveycapes@1.4.6', (-> 1.4.12)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'leawind_third_person@2.0.8-beta.5', (-> 2.2.0-beta.4)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'chat_heads@0.13.3', (-> 0.13.6)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'cloth-config@11.1.118', (-> 11.1.136+fabric)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'toolstats@16.0.8', (-> 16.0.9)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'iris@1.7.2+mc1.20.1', (-> 1.7.5+1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'presencefootsteps@1.9.3', (-> 1.9.4+1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'craftingtweaks@18.2.3', (-> 18.2.5+fabric-1.20.1)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'enchdesc@17.0.14', (-> 17.1.19)
+[10:22:16] [Worker-Main-2/INFO]: Update available for 'collective@7.57', (-> 1.20.1-7.87-fabric+forge+neo)
+[10:22:16] [CraftPresence/INFO]: Attempting to connect to Discord (3/10)...
+[10:22:18] [CraftPresence/INFO]: Attempting to connect to Discord (4/10)...
+[10:22:19] [Render thread/INFO]: Deserializing YACLConfig from 'D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\config\yacl.json5'
+[10:22:19] [Render thread/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$3 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$3)
+[10:22:19] [Render thread/INFO]: [STDERR]: org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 127: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:279)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.generateLocalVariableTable(Locals.java:859)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getGeneratedLocalVariableTable(Locals.java:828)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:782)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:752)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:545)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:336)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.initLocals(LocalVariableDiscriminator.java:154)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.<init>(LocalVariableDiscriminator.java:148)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector$Context.<init>(ModifyVariableInjector.java:71)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector.preInject(ModifyVariableInjector.java:159)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.code.Injector.preInject(Injector.java:259)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.preInject(InjectionInfo.java:436)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at com.llamalad7.mixinextras.versions.MixinVersionImpl_v0_8_3.preInject(MixinVersionImpl_v0_8_3.java:16)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at com.llamalad7.mixinextras.utils.CompatibilityHelper.preInject(CompatibilityHelper.java:29)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.preInject(InjectorWrapperImpl.java:57)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.preInject(WrapperInjectionInfo.java:63)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1370)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1062)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:402)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:422)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_315.<init>(class_315.java:469)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.<init>(class_310.java:460)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:211)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.polymc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.polymc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:176)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.polymc.impl.OneSixLauncher.launch(OneSixLauncher.java:186)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.polymc.EntryPoint.listen(EntryPoint.java:144)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.polymc.EntryPoint.main(EntryPoint.java:74)
+[10:22:19] [Render thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.asm.MixinVerifier.isAssignableFrom(MixinVerifier.java:104)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.SimpleVerifier.isSubTypeOf(SimpleVerifier.java:212)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:400)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:44)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.executeInvokeInsn(Frame.java:682)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.execute(Frame.java:609)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:171)
+[10:22:19] [Render thread/INFO]: [STDERR]: 	... 43 more
+[10:22:19] [Render thread/INFO]: Loaded config for: farsight.json
+[10:22:19] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[10:22:20] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.20.4 on Radeon RX 5500 XT (ATI Technologies Inc.) with OpenGL 3.2.0 Core Profile Context 24.10.1.241007
+[10:22:20] [Render thread/INFO]: AMD GPU detected. Enabling coherent buffer mapping
+[10:22:20] [Render thread/INFO]: Found Iris/Oculus 1.7.2+mc1.20.1. Enabling compatibility.
+[10:22:20] [CraftPresence/INFO]: Attempting to connect to Discord (5/10)...
+[10:22:20] [Render thread/INFO]: Debug functionality is disabled.
+[10:22:20] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[10:22:21] [Render thread/INFO]: Profile: Custom (+26 options changed by user)
+[10:22:22] [Render thread/INFO]: Using shaderpack: ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3
+[10:22:22] [Render thread/INFO]: ARRP register - before vanilla
+[10:22:22] [Render thread/INFO]: ARRP register - after vanilla
+[10:22:22] [Render thread/INFO]: ARRP register - before user
+[10:22:22] [Render thread/WARN]: Method overwrite conflict for getModel in fabric-model-loading-api-v1.mixins.json:BakedModelManagerMixin from mod fabric-model-loading-api-v1, previously written by foundationgames.enhancedblockentities.mixin.BakedModelManagerMixin. Skipping method.
+[10:22:22] [Render thread/INFO]: Hardware information:
+[10:22:22] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 3600 6-Core Processor 
+[10:22:22] [Render thread/INFO]: GPU: Radeon RX 5500 XT (Supports OpenGL 3.2.0 Core Profile Context 24.10.1.241007)
+[10:22:22] [Render thread/INFO]: OS: Windows 11 (10.0)
+[10:22:23] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
+[10:22:23] [Render thread/INFO]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
+[10:22:24] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[10:22:24] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (advanced-xray-fabric, advanced_runtime_resource_pack, advancementinfo, appleskin, balm-fabric, bedrockify, betterpingdisplay, bobby, bookshelf, bwncr, caffeineconfig, cardinal-components-base, cardinal-components-entity, cavedust, chat_heads, cherishedworlds, chunksfadein, cicada, cleancut, cleardespawn, cloth-config, clumps, cmdkeybind, cobblemon, conditional-mixin, continuity, craftingtweaks, craftpresence, ctrl-q, cull-less-leaves, dynamic_fps, dynamiccrosshair, eatinganimationid, emotecraft, enchdesc, enhanced_attack_indicator, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, euphoria_patcher, explosiveenhancement, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, farsight, faster_entity_animations, feytweaks, forgeconfigapiport, highlight, highlighter, immediatelyfast, indium, invmove, iris, jade, jankson, jei, konkrete, krypton, kyrptconfig, lambdynlights, languagereload, lazydfu, leahs-immersive-thunder, leawind_third_person, letmedespawn, libgui, lithium, longerchathistory, macos_input_fixes, make_bubbles_pop, midnightlib, modmenu, monsters_in_the_closet, moreculling, netherportalfix, notenoughanimations, owo, panorama_screens, paperdoll, particular, presencefootsteps, pride, reeses-sodium-options, roughlyenoughitems, roughlyenoughprofessions, roughlysearchable, showmeyourskin, shulkerboxtooltip, slimyfloor, smoothscroll, sodium, sodium-extra, sound_physics_remastered, spruceui, sspb, starlight, stendhal, sushi_bar, titlefixer, toolstats, tooltipfix, visuality, voicechat, waterdripsound, waveycapes, worldedit, worldeditcui, xaerominimap, xaeroworldmap, yaclx, yet_another_config_lib_v3, yosbr, zoomify), presencefootsteps:default_sound_pack, continuity:default, continuity:glass_pane_culling_fix, minecraft:highlight_extended, minecraft:supporteatinganimation
+[10:22:24] [Render thread/INFO]: closing rrp ebe:base_resources
+[10:22:24] [Render thread/INFO]: ARRP register - before vanilla
+[10:22:24] [Render thread/INFO]: ARRP register - after vanilla
+[10:22:24] [Worker-Main-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[10:22:24] [Worker-Main-11/WARN]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
+[10:22:24] [Worker-Main-11/WARN]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
+[10:22:24] [Render thread/INFO]: [FANCYMENU] Preloading animations! This could cause the loading screen to freeze for a while..
+[10:22:24] [Render thread/INFO]: [FANCYMENU] Finished preloading animations!
+[10:22:24] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
+[10:22:24] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[10:22:24] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[10:22:24] [CraftPresence/INFO]: Attempting to connect to Discord (6/10)...
+[10:22:24] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[10:22:25] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[10:22:27] [Worker-Main-6/INFO]: [SSPB] Modded dirt path rendering detected. Option to toggle vanilla path block lighting is disabled.
+[10:22:31] [Render thread/ERROR]: [Bedrockify] method invocation failed into "net.coderbot.iris.Iris::getCurrentPack()", provided by the mod "iris".
+java.lang.ClassNotFoundException: net.coderbot.iris.Iris
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:421) ~[?:?]
+	at java.lang.Class.forName(Class.java:412) ~[?:?]
+	at me.juancarloscp52.bedrockify.client.features.bedrockShading.BedrockSunGlareShading.fetchShaderStateInternal(BedrockSunGlareShading.java:155) ~[bedrockify-1.9.1+mc1.20.jar:?]
+	at me.juancarloscp52.bedrockify.client.features.bedrockShading.BedrockSunGlareShading.reloadCustomShaderState(BedrockSunGlareShading.java:118) ~[bedrockify-1.9.1+mc1.20.jar:?]
+	at net.minecraft.class_761.handler$zhi000$bedrockify$reloadWorldRendererCallback(class_761.java:5946) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_3279(class_761.java) ~[client-intermediary.jar:?]
+	at net.irisshaders.iris.pipeline.PipelineManager.preparePipeline(PipelineManager.java:38) ~[CLIENTE___iris-1.7.2+mc1.20.1.jar:?]
+	at net.irisshaders.iris.Iris.onLoadingComplete(Iris.java:138) ~[CLIENTE___iris-1.7.2+mc1.20.1.jar:?]
+	at net.minecraft.class_442.handler$dcn000$iris$firstInit(class_442.java:1523) ~[client-intermediary.jar:?]
+	at net.minecraft.class_442.method_25426(class_442.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25423(class_437.java:297) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1507(class_310.java:1080) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_51251(class_310.java:690) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:674) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-1.20.1-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.polymc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) ~[NewLaunch.jar:?]
+	at org.polymc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:176) ~[NewLaunch.jar:?]
+	at org.polymc.impl.OneSixLauncher.launch(OneSixLauncher.java:186) ~[NewLaunch.jar:?]
+	at org.polymc.EntryPoint.listen(EntryPoint.java:144) ~[NewLaunch.jar:?]
+	at org.polymc.EntryPoint.main(EntryPoint.java:74) ~[NewLaunch.jar:?]
+[10:22:31] [Render thread/WARN]: [Bedrockify] Shader mod is present, but cannot determine the shader state. BedrockIfy Sun Glare Shading is now disabled.
+[10:22:31] [Render thread/INFO]: Cached all modded block culling states
+[10:22:31] [Render thread/INFO]: Client started, setting up xray store
+[10:22:31] [Render thread/INFO]: Start loading plugin from Jade
+[10:22:31] [Render thread/INFO]: Start loading plugin from Jade
+[10:22:31] [Render thread/INFO]: Start loading plugin from Jade
+[10:22:32] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[10:22:32] [Render thread/INFO]: New world map region cache hash code: -1025998818
+[10:22:32] [Render thread/INFO]: Registered player tracker system: map_synced
+[10:22:32] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[10:22:32] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[10:22:32] [Render thread/INFO]: No Optifine!
+[10:22:32] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[10:22:32] [Render thread/INFO]: Xaero's World Map: Iris found!
+[10:22:32] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[10:22:32] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[10:22:34] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[10:22:34] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[10:22:34] [Render thread/INFO]: No Optifine!
+[10:22:34] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[10:22:34] [Render thread/INFO]: Xaero's Minimap: Iris found!
+[10:22:34] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[10:22:34] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10:22:34] [Render thread/WARN]: Missing sound for event: cobblemon:pokemon.evolving
+[10:22:34] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[10:22:34] [Render thread/INFO]: Initializing Sound Physics
+[10:22:34] [Render thread/INFO]: EFX Extension recognized
+[10:22:34] [Render thread/INFO]: Max auxiliary sends: 4
+[10:22:34] [Render thread/INFO]: Aux slot 1 created
+[10:22:34] [Render thread/INFO]: Aux slot 2 created
+[10:22:34] [Render thread/INFO]: Aux slot 3 created
+[10:22:34] [Render thread/INFO]: Aux slot 4 created
+[10:22:34] [Render thread/INFO]: EFX ready
+[10:22:34] [Render thread/INFO]: Sound engine started
+[10:22:34] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[10:22:34] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:22:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:22:35] [Render thread/WARN]: Mixin apply for mod faster_entity_animations failed fastanim.mixins.json:ParrotEntityModelMixin from mod faster_entity_animations -> net.minecraft.class_584: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Invalid descriptor on fastanim.mixins.json:ParrotEntityModelMixin from mod faster_entity_animations->@Inject::setAngles(Lnet/minecraft/class_584$class_585;IFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V! Expected (Lnet/minecraft/class_1453;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V but found (Lnet/minecraft/class_584$class_585;IFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V [ -> Inject -> fastanim.mixins.json:ParrotEntityModelMixin from mod faster_entity_animations->@Inject::setAngles(Lnet/minecraft/class_584$class_585;IFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Invalid descriptor on fastanim.mixins.json:ParrotEntityModelMixin from mod faster_entity_animations->@Inject::setAngles(Lnet/minecraft/class_584$class_585;IFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V! Expected (Lnet/minecraft/class_1453;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V but found (Lnet/minecraft/class_584$class_585;IFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V [ -> Inject -> fastanim.mixins.json:ParrotEntityModelMixin from mod faster_entity_animations->@Inject::setAngles(Lnet/minecraft/class_584$class_585;IFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V]
+	at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:564) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:494) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:277) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:445) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1377) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1062) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:402) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:422) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraft.class_5600.method_32073(class_5600.java:215) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5599.method_14491(class_5599.java:24) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4013.method_29490(class_4013.java:15) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-1.20.1-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.polymc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) ~[NewLaunch.jar:?]
+	at org.polymc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:176) ~[NewLaunch.jar:?]
+	at org.polymc.impl.OneSixLauncher.launch(OneSixLauncher.java:186) ~[NewLaunch.jar:?]
+	at org.polymc.EntryPoint.listen(EntryPoint.java:144) ~[NewLaunch.jar:?]
+	at org.polymc.EntryPoint.main(EntryPoint.java:74) ~[NewLaunch.jar:?]
+[10:22:35] [Render thread/WARN]: @Final field field_3560:[Lnet/minecraft/class_630; in fastanim.mixins.json:SilverfishEntityModelMixin from mod faster_entity_animations should be final
+[10:22:35] [Render thread/WARN]: @Final field field_3557:[Lnet/minecraft/class_630; in fastanim.mixins.json:SilverfishEntityModelMixin from mod faster_entity_animations should be final
+[10:22:36] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10:22:36] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10:22:36] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10:22:36] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[10:22:36] [Render thread/WARN]: Missing particle sprites: cobblemon:mushroommize
+[10:22:36] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:22:36] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:22:36] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[10:22:36] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[10:22:36] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[10:22:36] [Render thread/INFO]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
+[10:22:36] [Render thread/INFO]: Loading assets...
+[10:22:36] [Render thread/INFO]: Loading particle effects...
+[10:22:36] [Render thread/INFO]: Loaded 531 particle effects
+[10:22:36] [Render thread/INFO]: Loading animations...
+[10:22:37] [CraftPresence/INFO]: Attempting to connect to Discord (7/10)...
+[10:22:38] [Render thread/INFO]: Loaded 4337 animations from 701 animation groups
+[10:22:38] [Render thread/INFO]: Loading Pokémon models...
+[10:22:38] [Render thread/INFO]: Loaded 763 Pokémon models.
+[10:22:39] [Render thread/INFO]: Loading Poké Ball models...
+[10:22:39] [Render thread/INFO]: Loaded 2 Poké Ball models.
+[10:22:39] [Render thread/INFO]: Loaded 71 berry models
+[10:22:39] [Render thread/INFO]: Loading Fossil Pokémon models...
+[10:22:39] [Render thread/INFO]: Loaded 19 Fossil Pokémon models.
+[10:22:39] [Render thread/INFO]: Loading Block Entity models...
+[10:22:39] [Render thread/INFO]: Loaded 1 Block Entity models.
+[10:22:39] [Render thread/INFO]: Loading Generic models...
+[10:22:39] [Render thread/INFO]: Loaded 1 Generic models.
+[10:22:39] [Render thread/INFO]: Loaded 0 misc models
+[10:22:39] [Render thread/INFO]: Loaded assets
+[10:22:39] [Render thread/INFO]: Loaded 1  use_to_first_person item patterns from minecraft:use_to_first_person/vanilla
+[10:22:39] [Render thread/INFO]: Loaded 7 hold_to_aim item patterns from minecraft:hold_to_aim/vanilla
+[10:22:39] [Render thread/INFO]: Loaded 2  use_to_aim item patterns from minecraft:use_to_aim/vanilla
+[10:22:40] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[10:22:40] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[10:22:40] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
+[10:22:40] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
+[10:22:40] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
+[10:22:40] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
+[10:22:40] [Render thread/INFO]: Successfully loaded image 'cobblemon:textures/particle/shiny_send_out.gif'
+[10:22:40] [Render thread/INFO]: [ETF]: reloading ETF data.
+[10:22:40] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:22:40] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:22:40] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[10:22:40] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[10:22:40] [Render thread/ERROR]: [FANCYMENU] Failed to read texture from file! File not found: D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\resources\cm_textures\exit_button.png
+[10:22:40] [Render thread/ERROR]: [FANCYMENU] Failed to read texture from file! File not found: D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\resources\cm_textures\exit_hover.png
+[10:22:42] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: xaero.common.gui.GuiWidgetUpdateAll
+[10:22:46] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: select_world_screen
+[10:22:48] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: generic_dirt_message_screen
+[10:22:48] [Render thread/INFO]: ARRP register - before user
+[10:22:48] [Render thread/INFO]: ARRP register - before vanilla
+[10:22:48] [Render thread/INFO]: ARRP register - after vanilla
+[10:22:48] [Render thread/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[10:22:49] [Render thread/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[10:22:49] [Render thread/INFO]: Loaded 7 recipes
+[10:22:49] [Render thread/INFO]: Loaded 1592 advancements
+[10:22:50] [CraftPresence/INFO]: Attempting to connect to Discord (8/10)...
+[10:22:52] [Render thread/INFO]: Loaded 936 moves
+[10:22:52] [Render thread/INFO]: Loaded 314 abilities
+[10:22:53] [Render thread/INFO]: Finished additions
+[10:22:54] [Render thread/INFO]: Imported 244 held item IDs from showdown
+[10:22:54] [Render thread/INFO]: Loaded 1025 Pokémon species
+[10:22:54] [Render thread/INFO]: Loaded 62 spawn detail presets.
+[10:22:54] [Render thread/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[10:22:54] [Render thread/INFO]: Loaded 15 fossils
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Unknown preset name: underground.
+[10:22:54] [Render thread/ERROR]: Invalid species for spawn detail: sneaseler_museum
+[10:22:54] [Render thread/ERROR]: Invalid species for spawn detail: yamask_museum
+[10:22:54] [Render thread/ERROR]: Invalid species for spawn detail: froakie_museum
+[10:22:54] [Render thread/ERROR]: Invalid species for spawn detail: sobble_museum
+[10:22:54] [Render thread/ERROR]: Invalid species for spawn detail: cofagrigus_museum
+[10:22:54] [Render thread/INFO]: Loaded 69 berries
+[10:22:55] [Render thread/INFO]: Stopping JEI
+[10:22:55] [Render thread/INFO]: Stopping JEI
+[10:22:55] [Render thread/INFO]: Sending Runtime Unavailable...
+[10:22:55] [Render thread/INFO]: Stopping JEI GUI
+[10:22:55] [Render thread/INFO]: Sending Runtime Unavailable took 361.1 μs
+[10:22:55] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[10:22:55] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:22:55] [Render thread/INFO]: Applied 564 biome modifications to 64 of 64 new biomes in 17.89 ms
+[10:22:55] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[10:22:55] [Server thread/INFO]: Generating keypair
+[10:22:55] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: level_loading_screen
+[10:22:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:22:58] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:22:58] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:22:58] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:22:58] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:22:58] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:22:59] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:22:59] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:23:00] [Render thread/INFO]: Preparando zona de aparición: 55 %
+[10:23:00] [Render thread/INFO]: Time elapsed: 3803 ms
+[10:23:00] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 59277
+[10:23:01] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:23:01] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[10:23:02] [Server thread/INFO]: lorspi[local:E:7dfe775a] logged in with entity id 196 at (-432.93012313239797, 66.0885272813166, -1024.284164362599)
+[10:23:02] [Netty Local Client IO #0/INFO]: [showmeyourskin] Received config from server
+[10:23:02] [Netty Server IO #1/INFO]: [showmeyourskin] Client of lorspi accepted server config.
+[10:23:02] [Render thread/INFO]: New minimap session initialized!
+[10:23:02] [Server thread/INFO]: Syncing config to lorspi (f8862d2c-39bb-4246-aacc-ce55a2fca150)
+[10:23:02] [Server thread/INFO]: lorspi se ha unido a la partida
+[10:23:02] [Render thread/INFO]: New world map session initialized!
+[10:23:02] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[10:23:02] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[10:23:02] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[10:23:05] [Render thread/INFO]: Started 6 worker threads
+[10:23:05] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: receiving_level_screen
+[10:23:05] [Render thread/INFO]: on Client player join
+[10:23:05] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[10:23:05] [Server thread/INFO]: [voicechat] Received secret request of lorspi (18)
+[10:23:05] [Server thread/INFO]: [voicechat] Sent secret to lorspi
+[10:23:05] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[10:23:05] [Render thread/INFO]: Initializing Sound Physics
+[10:23:05] [Render thread/INFO]: EFX Extension recognized
+[10:23:05] [Render thread/INFO]: Max auxiliary sends: 2
+[10:23:05] [Render thread/INFO]: Aux slot 1 created
+[10:23:05] [Render thread/INFO]: Aux slot 2 created
+[10:23:05] [Render thread/INFO]: Aux slot 3 created
+[10:23:05] [Render thread/INFO]: Aux slot 4 created
+[10:23:05] [Render thread/INFO]: EFX ready
+[10:23:05] [Render thread/INFO]: Received config from the server: 
+[10:23:05] [Render thread/INFO]: [ShulkerBoxTooltip] Server integration enabled, attempting handshake...
+[10:23:05] [Netty Server IO #1/INFO]: [ShulkerBoxTooltip] lorspi: protocol version: 2.0
+[10:23:05] [Netty Local Client IO #0/INFO]: [ShulkerBoxTooltip] Handshake succeeded
+[10:23:05] [Netty Local Client IO #0/INFO]: [ShulkerBoxTooltip] Server protocol version: 2.0
+[10:23:05] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[10:23:05] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] ****************************************
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for START.
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] Plugins (9):
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] ****************************************
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] ########################################
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for START.
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:23:05] [REI-ReloadPlugins/INFO]: [REI] ########################################
+[10:23:06] [Render thread/INFO]: Starting JEI...
+[10:23:06] [Render thread/INFO]: Registering item subtypes...
+[10:23:06] [Render thread/INFO]: Registering item subtypes took 9.098 ms
+[10:23:06] [Render thread/INFO]: Registering fluid subtypes...
+[10:23:06] [Render thread/INFO]: Registering fluid subtypes took 5.229 ms
+[10:23:06] [Render thread/INFO]: Registering ingredients...
+[10:23:06] [Render thread/INFO]: Registering ingredients: jei:minecraft took 77.34 milliseconds
+[10:23:06] [Render thread/INFO]: Registering ingredients took 78.25 ms
+[10:23:06] [Render thread/INFO]: Registering categories...
+[10:23:06] [Render thread/INFO]: Registering categories: jei:minecraft took 69.59 milliseconds
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for START in 2.096 ms, totaling 96.76 ms.
+[10:23:06] [Render thread/INFO]: Registering categories took 78.80 ms
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for START in 860.7 μs, totaling 585.1 ms.
+[10:23:06] [Render thread/INFO]: Registering vanilla category extensions...
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for START in 573.8 μs, totaling 3.458 ms.
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for END.
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] Plugins (9):
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
+[10:23:06] [Render thread/INFO]: Registering vanilla category extensions took 8.827 ms
+[10:23:06] [Render thread/INFO]: Registering recipe catalysts...
+[10:23:06] [Render thread/INFO]: Registering recipe catalysts took 995.7 μs
+[10:23:06] [Render thread/INFO]: Registering advanced plugins...
+[10:23:06] [Render thread/INFO]: Registering advanced plugins took 295.3 μs
+[10:23:06] [Render thread/INFO]: Building recipe registry...
+[10:23:06] [Render thread/INFO]: Building recipe registry took 17.19 ms
+[10:23:06] [Render thread/INFO]: Registering recipes...
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for END.
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:23:06] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[10:23:07] [Render thread/INFO]: Registering recipes: jei:minecraft took 460.9 milliseconds
+[10:23:07] [Render thread/INFO]: Registering recipes took 468.2 ms
+[10:23:07] [Render thread/INFO]: Registering recipes transfer handlers...
+[10:23:07] [Render thread/INFO]: Registering recipes transfer handlers took 5.317 ms
+[10:23:07] [Render thread/INFO]: Building runtime...
+[10:23:07] [Render thread/INFO]: Registering gui handlers...
+[10:23:07] [Render thread/INFO]: Registering gui handlers: jei:gui took 12.02 milliseconds
+[10:23:07] [Render thread/INFO]: Registering gui handlers took 17.80 ms
+[10:23:07] [Render thread/INFO]: Registering Runtime...
+[10:23:07] [Render thread/INFO]: Starting JEI GUI
+[10:23:07] [Render thread/INFO]: Building ingredient list...
+[10:23:07] [Render thread/INFO]: Building ingredient list took 6.574 ms
+[10:23:07] [Render thread/INFO]: Building ingredient filter...
+[10:23:07] [Render thread/INFO]: Adding 1993 ingredients
+[10:23:07] [Render thread/INFO]: Added 1993 ingredients
+[10:23:07] [Render thread/INFO]: Building ingredient filter took 428.0 ms
+[10:23:07] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 602.9 milliseconds
+[10:23:07] [Render thread/INFO]: Registering Runtime took 603.5 ms
+[10:23:07] [Render thread/INFO]: Building runtime took 637.4 ms
+[10:23:07] [Render thread/INFO]: Sending Runtime...
+[10:23:07] [Render thread/INFO]: Sending Runtime took 322.3 μs
+[10:23:07] [Render thread/INFO]: Starting JEI took 1.416 s
+[10:23:07] [Render thread/INFO]: Loading all registered leaf blocks.
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
+[10:23:07] [Render thread/INFO]: Minimap updated server level id: 837874961 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for END in 650.0 μs, totaling 67.79 ms.
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for END in 727.4 μs, totaling 1.145 s.
+[10:23:07] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for END in 501.7 μs, totaling 8.543 ms.
+[10:23:07] [Render thread/INFO]: Loaded 45 advancements
+[10:23:08] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[10:23:08] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
+[10:23:08] [Render thread/INFO]: [voicechat] Received secret
+[10:23:08] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '127.0.0.1:59277'
+[10:23:08] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[10:23:08] [Render thread/INFO]: [System] [CHAT] [Simple Voice Chat] Pulse Sin asignar para configurar
+[10:23:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f8862d2c-39bb-4246-aacc-ce55a2fca150
+[10:23:08] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[10:23:08] [Render thread/INFO]: Stopping worker threads
+[10:23:08] [Render thread/INFO]: Started 6 worker threads
+[10:23:09] [Render thread/WARN]: Shader clouds could not find uniform named ModelViewMat in the specified shader program.
+[10:23:09] [Render thread/WARN]: Shader clouds could not find uniform named ProjMat in the specified shader program.
+[10:23:09] [Render thread/WARN]: Shader clouds could not find uniform named ColorModulator in the specified shader program.
+[10:23:09] [Render thread/WARN]: Shader clouds could not find uniform named FogStart in the specified shader program.
+[10:23:09] [Render thread/WARN]: Shader clouds could not find uniform named FogEnd in the specified shader program.
+[10:23:09] [Render thread/WARN]: Shader clouds could not find uniform named FogColor in the specified shader program.
+[10:23:09] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[10:23:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f8862d2c-39bb-4246-aacc-ce55a2fca150
+[10:23:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player lorspi (f8862d2c-39bb-4246-aacc-ce55a2fca150) successfully connected to voice chat
+[10:23:09] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[10:23:09] [Render thread/INFO]: Reloading entity icon resources...
+[10:23:09] [Render thread/INFO]: Reloaded entity icon resources!
+[10:23:15] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: inventory_screen
+[10:23:15] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: creative_mode_inventory_screen
+[10:23:15] [Render thread/WARN]: GUI did not draw the dark background layer behind itself, this may result in display issues: net.minecraft.class_481
+[10:23:19] [Server thread/INFO]: lorspi ha conseguido el progreso [Mente fría]
+[10:23:19] [Render thread/INFO]: [System] [CHAT] lorspi ha conseguido el progreso [Mente fría]
+[10:23:19] [Render thread/INFO]: Loaded 56 advancements
+[10:23:23] [CraftPresence/INFO]: Attempting to connect to Discord (9/10)...
+[10:23:30] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[10:23:31] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.puffer_fish.ambient
+[10:23:32] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[10:24:04] [Render thread/INFO]: Loaded 80 advancements
+[10:24:06] [Render thread/INFO]: Loaded 96 advancements
+[10:24:11] [CraftPresence/INFO]: Attempting to connect to Discord (10/10)...
+[10:24:36] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: pause_screen
+[10:24:36] [Server thread/INFO]: Saving and pausing game...
+[10:24:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:overworld
+[10:24:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_end
+[10:24:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_nether
+[10:24:37] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: options_screen
+[10:24:38] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: pack_selection_screen
+[10:24:38] [Render thread/INFO]: ARRP register - before user
+[10:24:47] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: confirm_screen
+[10:24:48] [Render thread/INFO]: ARRP register - before user
+[10:24:55] [Render thread/INFO]: Config values:
+Hotbar speed: 0.2
+Chat speed: 0.5
+Chat Opening speed: 0.5
+Creative screen speed: 0.5
+Entry list speed: 0.5
+Mask debug enabled: false
+Config version: 2.1
+[10:24:55] [Render thread/INFO]: [EMF (Entity Model Features)]: Clearing data for reload.
+[10:24:55] [Render thread/INFO]: ARRP register - before user
+[10:24:55] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[10:24:55] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (advanced-xray-fabric, advanced_runtime_resource_pack, advancementinfo, appleskin, balm-fabric, bedrockify, betterpingdisplay, bobby, bookshelf, bwncr, caffeineconfig, cardinal-components-base, cardinal-components-entity, cavedust, chat_heads, cherishedworlds, chunksfadein, cicada, cleancut, cleardespawn, cloth-config, clumps, cmdkeybind, cobblemon, conditional-mixin, continuity, craftingtweaks, craftpresence, ctrl-q, cull-less-leaves, dynamic_fps, dynamiccrosshair, eatinganimationid, emotecraft, enchdesc, enhanced_attack_indicator, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, euphoria_patcher, explosiveenhancement, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, farsight, faster_entity_animations, feytweaks, forgeconfigapiport, highlight, highlighter, immediatelyfast, indium, invmove, iris, jade, jankson, jei, konkrete, krypton, kyrptconfig, lambdynlights, languagereload, lazydfu, leahs-immersive-thunder, leawind_third_person, letmedespawn, libgui, lithium, longerchathistory, macos_input_fixes, make_bubbles_pop, midnightlib, modmenu, monsters_in_the_closet, moreculling, netherportalfix, notenoughanimations, owo, panorama_screens, paperdoll, particular, presencefootsteps, pride, reeses-sodium-options, roughlyenoughitems, roughlyenoughprofessions, roughlysearchable, showmeyourskin, shulkerboxtooltip, slimyfloor, smoothscroll, sodium, sodium-extra, sound_physics_remastered, spruceui, sspb, starlight, stendhal, sushi_bar, titlefixer, toolstats, tooltipfix, visuality, voicechat, waterdripsound, waveycapes, worldedit, worldeditcui, xaerominimap, xaeroworldmap, yaclx, yet_another_config_lib_v3, yosbr, zoomify), presencefootsteps:default_sound_pack, continuity:default, continuity:glass_pane_culling_fix, minecraft:highlight_extended, minecraft:supporteatinganimation, file/FreshAnimations_v1.8.1.zip, file/Eyeless Fresh Moves v3.0.1.zip
+[10:24:55] [Render thread/INFO]: closing rrp ebe:base_resources
+[10:24:55] [Render thread/INFO]: ARRP register - before vanilla
+[10:24:55] [Render thread/INFO]: ARRP register - after vanilla
+[10:24:55] [Worker-Main-2/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[10:24:56] [Worker-Main-4/WARN]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
+[10:24:56] [Worker-Main-4/WARN]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
+[10:24:59] [Worker-Main-5/INFO]: [SSPB] Modded dirt path rendering detected. Option to toggle vanilla path block lighting is disabled.
+[10:24:59] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[10:24:59] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10:24:59] [Render thread/WARN]: Missing sound for event: cobblemon:pokemon.evolving
+[10:24:59] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[10:24:59] [Render thread/INFO]: Initializing Sound Physics
+[10:24:59] [Render thread/INFO]: EFX Extension recognized
+[10:24:59] [Render thread/INFO]: Max auxiliary sends: 4
+[10:24:59] [Render thread/INFO]: Aux slot 1 created
+[10:24:59] [Render thread/INFO]: Aux slot 2 created
+[10:24:59] [Render thread/INFO]: Aux slot 3 created
+[10:24:59] [Render thread/INFO]: Aux slot 4 created
+[10:24:59] [Render thread/INFO]: EFX ready
+[10:24:59] [Render thread/INFO]: Sound engine started
+[10:24:59] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[10:24:59] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10:24:59] [Render thread/INFO]: Entity icon manager reset!
+[10:24:59] [Render thread/INFO]: Reloading entity icon resources...
+[10:24:59] [Render thread/INFO]: Reloaded entity icon resources!
+[10:24:59] [Render thread/INFO]: New world map region cache hash code: -699102804
+[10:24:59] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:24:59] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 132.0, 436.0, 208.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 132.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 248.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [512.0, 208.0, 512.0, 248.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 132.0, 436.0, 208.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 132.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 248.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [512.0, 208.0, 512.0, 248.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [196.0, 40.0, 196.0, 80.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [196.0, 80.0, 196.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [196.0, 80.0, 196.0, 128.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [236.0, 80.0, 236.0, 128.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [116.0, 68.0, 116.0, 96.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [116.0, 96.0, 116.0, 68.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [116.0, 96.0, 116.0, 124.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [144.0, 96.0, 144.0, 124.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 72.0, 24.0, 88.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 88.0, 24.0, 72.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 88.0, 24.0, 108.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [40.0, 88.0, 40.0, 108.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 32.0, 0.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 32.0, 0.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 0.0, 32.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 0.0, 32.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [32.0, 31.0, 39.0, 31.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [48.0, 31.0, 55.0, 31.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [39.0, 31.0, 48.0, 31.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [23.0, 31.0, 32.0, 31.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 20.0, 28.0, 20.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [35.0, 20.0, 39.0, 20.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [28.0, 20.0, 35.0, 20.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [17.0, 20.0, 24.0, 20.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [32.0, 22.0, 39.0, 22.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [48.0, 22.0, 55.0, 22.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [39.0, 22.0, 48.0, 22.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [23.0, 22.0, 32.0, 22.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 48.0, 34.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [42.0, 48.0, 50.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [34.0, 48.0, 42.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 48.0, 26.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [10.0, 48.0, 18.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 48.0, 34.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 48.0, 26.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [2.0, 48.0, 10.0, 48.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [10.0, 40.0, 18.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 40.0, 34.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 40.0, 26.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [2.0, 40.0, 10.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 40.0, 34.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [42.0, 40.0, 50.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [34.0, 40.0, 42.0, 40.0]
+[10:25:00] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 40.0, 26.0, 40.0]
+[10:25:01] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10:25:01] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10:25:01] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10:25:01] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10:25:01] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10:25:01] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[10:25:01] [Render thread/WARN]: Missing particle sprites: cobblemon:mushroommize
+[10:25:01] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:25:01] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:25:01] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[10:25:01] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[10:25:01] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[10:25:01] [Render thread/INFO]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
+[10:25:01] [Render thread/INFO]: Loading assets...
+[10:25:01] [Render thread/INFO]: Loading particle effects...
+[10:25:01] [Render thread/INFO]: Loaded 531 particle effects
+[10:25:01] [Render thread/INFO]: Loading animations...
+[10:25:03] [Render thread/INFO]: Loaded 4337 animations from 701 animation groups
+[10:25:03] [Render thread/INFO]: Loading Pokémon models...
+[10:25:03] [Render thread/INFO]: Loaded 763 Pokémon models.
+[10:25:03] [Render thread/INFO]: Loading Poké Ball models...
+[10:25:03] [Render thread/INFO]: Loaded 2 Poké Ball models.
+[10:25:03] [Render thread/INFO]: Loaded 71 berry models
+[10:25:03] [Render thread/INFO]: Loading Fossil Pokémon models...
+[10:25:03] [Render thread/INFO]: Loaded 19 Fossil Pokémon models.
+[10:25:03] [Render thread/INFO]: Loading Block Entity models...
+[10:25:03] [Render thread/INFO]: Loaded 1 Block Entity models.
+[10:25:03] [Render thread/INFO]: Loading Generic models...
+[10:25:03] [Render thread/INFO]: Loaded 1 Generic models.
+[10:25:03] [Render thread/INFO]: Loaded 0 misc models
+[10:25:03] [Render thread/INFO]: Loaded assets
+[10:25:03] [Render thread/INFO]: Loaded 1  use_to_first_person item patterns from minecraft:use_to_first_person/vanilla
+[10:25:03] [Render thread/INFO]: Loaded 7 hold_to_aim item patterns from minecraft:hold_to_aim/vanilla
+[10:25:03] [Render thread/INFO]: Loaded 2  use_to_aim item patterns from minecraft:use_to_aim/vanilla
+[10:25:03] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[10:25:03] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[10:25:03] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
+[10:25:03] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
+[10:25:03] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
+[10:25:03] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
+[10:25:03] [Render thread/INFO]: Successfully loaded image 'cobblemon:textures/particle/shiny_send_out.gif'
+[10:25:03] [Render thread/INFO]: Stopping worker threads
+[10:25:03] [Render thread/INFO]: Started 6 worker threads
+[10:25:03] [Render thread/INFO]: [ETF]: reloading ETF data.
+[10:25:03] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:25:03] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[10:25:03] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[10:25:10] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[10:25:10] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[10:25:11] [CraftPresence/ERROR]: Unable to connect to Discord...
+[10:25:14] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.puffer_fish.ambient
+[10:25:15] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[10:25:16] [Render thread/WARN]: [EMF]: Entity model [net.minecraft.class_612] has been overridden by [net.minecraft.class_615] likely from a mod.
+[10:25:16] [Render thread/WARN]: [EMF]: Prevent model overrides option is enabled! EMF will attempt to revert the new model [net.minecraft.class_615] back into the original model [net.minecraft.class_612]. THIS MAY HAVE UNINTENDED EFFECTS ON THE OTHER MOD, DISABLE THIS EMF SETTING IF IT CAUSES CRASHES!
+[10:25:30] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: chat_screen
+[10:25:34] [Server thread/INFO]: [lorspi: Se ha generado la entidad «Saqueador»]
+[10:25:34] [Render thread/INFO]: [System] [CHAT] Se ha generado la entidad «Saqueador»
+[10:25:45] [Server thread/INFO]: Saving and pausing game...
+[10:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:overworld
+[10:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_end
+[10:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_nether
+[10:25:46] [Render thread/INFO]: ARRP register - before user
+[10:25:54] [Render thread/INFO]: ARRP register - before user
+[10:25:56] [Render thread/INFO]: ARRP register - before user
+[10:26:06] [Render thread/INFO]: Config values:
+Hotbar speed: 0.2
+Chat speed: 0.5
+Chat Opening speed: 0.5
+Creative screen speed: 0.5
+Entry list speed: 0.5
+Mask debug enabled: false
+Config version: 2.1
+[10:26:06] [Render thread/INFO]: [EMF (Entity Model Features)]: Clearing data for reload.
+[10:26:06] [Render thread/INFO]: ARRP register - before user
+[10:26:06] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[10:26:06] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (advanced-xray-fabric, advanced_runtime_resource_pack, advancementinfo, appleskin, balm-fabric, bedrockify, betterpingdisplay, bobby, bookshelf, bwncr, caffeineconfig, cardinal-components-base, cardinal-components-entity, cavedust, chat_heads, cherishedworlds, chunksfadein, cicada, cleancut, cleardespawn, cloth-config, clumps, cmdkeybind, cobblemon, conditional-mixin, continuity, craftingtweaks, craftpresence, ctrl-q, cull-less-leaves, dynamic_fps, dynamiccrosshair, eatinganimationid, emotecraft, enchdesc, enhanced_attack_indicator, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, euphoria_patcher, explosiveenhancement, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, farsight, faster_entity_animations, feytweaks, forgeconfigapiport, highlight, highlighter, immediatelyfast, indium, invmove, iris, jade, jankson, jei, konkrete, krypton, kyrptconfig, lambdynlights, languagereload, lazydfu, leahs-immersive-thunder, leawind_third_person, letmedespawn, libgui, lithium, longerchathistory, macos_input_fixes, make_bubbles_pop, midnightlib, modmenu, monsters_in_the_closet, moreculling, netherportalfix, notenoughanimations, owo, panorama_screens, paperdoll, particular, presencefootsteps, pride, reeses-sodium-options, roughlyenoughitems, roughlyenoughprofessions, roughlysearchable, showmeyourskin, shulkerboxtooltip, slimyfloor, smoothscroll, sodium, sodium-extra, sound_physics_remastered, spruceui, sspb, starlight, stendhal, sushi_bar, titlefixer, toolstats, tooltipfix, visuality, voicechat, waterdripsound, waveycapes, worldedit, worldeditcui, xaerominimap, xaeroworldmap, yaclx, yet_another_config_lib_v3, yosbr, zoomify), presencefootsteps:default_sound_pack, continuity:default, continuity:glass_pane_culling_fix, minecraft:highlight_extended, minecraft:supporteatinganimation, file/FreshAnimations_v1.8.1.zip, file/Eyeless Fresh Moves v3.0.1.zip, file/+§bFallingLeaves§8-[v1.10].zip, file/Better+Lanterns+v1.2(mc-1.21).zip
+[10:26:06] [Render thread/INFO]: closing rrp ebe:base_resources
+[10:26:06] [Render thread/INFO]: ARRP register - before vanilla
+[10:26:06] [Render thread/INFO]: ARRP register - after vanilla
+[10:26:06] [Worker-Main-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[10:26:06] [Worker-Main-4/WARN]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
+[10:26:06] [Worker-Main-4/WARN]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
+[10:26:07] [Worker-Main-5/INFO]: [SSPB] Modded dirt path rendering detected. Option to toggle vanilla path block lighting is disabled.
+[10:26:07] [Worker-Main-5/WARN]: Missing textures in model minecraft:lantern#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/
+[10:26:07] [Worker-Main-5/WARN]: Missing textures in model minecraft:soul_lantern#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/
+[10:26:08] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[10:26:08] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10:26:08] [Render thread/WARN]: Missing sound for event: cobblemon:pokemon.evolving
+[10:26:08] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[10:26:08] [Render thread/INFO]: Initializing Sound Physics
+[10:26:08] [Render thread/INFO]: EFX Extension recognized
+[10:26:08] [Render thread/INFO]: Max auxiliary sends: 4
+[10:26:08] [Render thread/INFO]: Aux slot 1 created
+[10:26:08] [Render thread/INFO]: Aux slot 2 created
+[10:26:08] [Render thread/INFO]: Aux slot 3 created
+[10:26:08] [Render thread/INFO]: Aux slot 4 created
+[10:26:08] [Render thread/INFO]: EFX ready
+[10:26:08] [Render thread/INFO]: Sound engine started
+[10:26:08] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[10:26:08] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10:26:08] [Render thread/INFO]: Entity icon manager reset!
+[10:26:08] [Render thread/INFO]: Reloading entity icon resources...
+[10:26:08] [Render thread/INFO]: Reloaded entity icon resources!
+[10:26:08] [Render thread/INFO]: New world map region cache hash code: -68215255
+[10:26:08] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:26:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 132.0, 436.0, 208.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 132.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 248.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [512.0, 208.0, 512.0, 248.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 132.0, 436.0, 208.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 132.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [436.0, 208.0, 436.0, 248.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [512.0, 208.0, 512.0, 248.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [196.0, 40.0, 196.0, 80.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [196.0, 80.0, 196.0, 40.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [196.0, 80.0, 196.0, 128.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [236.0, 80.0, 236.0, 128.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [116.0, 68.0, 116.0, 96.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [116.0, 96.0, 116.0, 68.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [116.0, 96.0, 116.0, 124.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [144.0, 96.0, 144.0, 124.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 72.0, 24.0, 88.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 88.0, 24.0, 72.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 88.0, 24.0, 108.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [40.0, 88.0, 40.0, 108.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvDown], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 32.0, 0.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvUp], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 32.0, 0.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 0.0, 32.0]
+[10:26:08] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the U width should not be 0, its behaviour is extremely inconsistent between hardware: [0.0, 0.0, 0.0, 32.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [32.0, 31.0, 39.0, 31.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [48.0, 31.0, 55.0, 31.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [39.0, 31.0, 48.0, 31.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [23.0, 31.0, 32.0, 31.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [24.0, 20.0, 28.0, 20.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [35.0, 20.0, 39.0, 20.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [28.0, 20.0, 35.0, 20.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [17.0, 20.0, 24.0, 20.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [32.0, 22.0, 39.0, 22.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [48.0, 22.0, 55.0, 22.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [39.0, 22.0, 48.0, 22.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [23.0, 22.0, 32.0, 22.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 48.0, 34.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [42.0, 48.0, 50.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [34.0, 48.0, 42.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 48.0, 26.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [10.0, 48.0, 18.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 48.0, 34.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 48.0, 26.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [2.0, 48.0, 10.0, 48.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [10.0, 40.0, 18.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 40.0, 34.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 40.0, 26.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [2.0, 40.0, 10.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvNorth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [26.0, 40.0, 34.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvSouth], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [42.0, 40.0, 50.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvWest], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [34.0, 40.0, 42.0, 40.0]
+[10:26:09] [Render thread/WARN]: [EMF]: Possibly invalid UV data for [uvEast], the V height should not be 0, its behaviour is extremely inconsistent between hardware: [18.0, 40.0, 26.0, 40.0]
+[10:26:09] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/WARN]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/WARN]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10:26:09] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[10:26:09] [Render thread/WARN]: Missing particle sprites: cobblemon:mushroommize
+[10:26:09] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:26:09] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:26:09] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[10:26:09] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[10:26:09] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[10:26:09] [Render thread/INFO]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
+[10:26:09] [Render thread/INFO]: Loading assets...
+[10:26:09] [Render thread/INFO]: Loading particle effects...
+[10:26:09] [Render thread/INFO]: Loaded 531 particle effects
+[10:26:09] [Render thread/INFO]: Loading animations...
+[10:26:10] [Render thread/INFO]: Loaded 4337 animations from 701 animation groups
+[10:26:10] [Render thread/INFO]: Loading Pokémon models...
+[10:26:11] [Render thread/INFO]: Loaded 763 Pokémon models.
+[10:26:11] [Render thread/INFO]: Loading Poké Ball models...
+[10:26:11] [Render thread/INFO]: Loaded 2 Poké Ball models.
+[10:26:11] [Render thread/INFO]: Loaded 71 berry models
+[10:26:11] [Render thread/INFO]: Loading Fossil Pokémon models...
+[10:26:11] [Render thread/INFO]: Loaded 19 Fossil Pokémon models.
+[10:26:11] [Render thread/INFO]: Loading Block Entity models...
+[10:26:11] [Render thread/INFO]: Loaded 1 Block Entity models.
+[10:26:11] [Render thread/INFO]: Loading Generic models...
+[10:26:11] [Render thread/INFO]: Loaded 1 Generic models.
+[10:26:11] [Render thread/INFO]: Loaded 0 misc models
+[10:26:11] [Render thread/INFO]: Loaded assets
+[10:26:11] [Render thread/INFO]: Loaded 1  use_to_first_person item patterns from minecraft:use_to_first_person/vanilla
+[10:26:11] [Render thread/INFO]: Loaded 7 hold_to_aim item patterns from minecraft:hold_to_aim/vanilla
+[10:26:11] [Render thread/INFO]: Loaded 2  use_to_aim item patterns from minecraft:use_to_aim/vanilla
+[10:26:11] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[10:26:11] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[10:26:11] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
+[10:26:11] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
+[10:26:11] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
+[10:26:11] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
+[10:26:11] [Render thread/INFO]: Successfully loaded image 'cobblemon:textures/particle/shiny_send_out.gif'
+[10:26:11] [Render thread/INFO]: Stopping worker threads
+[10:26:11] [Render thread/INFO]: Started 6 worker threads
+[10:26:11] [Render thread/INFO]: [ETF]: reloading ETF data.
+[10:26:11] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:26:11] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[10:26:11] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[10:26:15] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[10:26:15] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[10:26:16] [Render thread/WARN]: [EMF]: Entity model [net.minecraft.class_612] has been overridden by [net.minecraft.class_615] likely from a mod.
+[10:26:16] [Render thread/WARN]: [EMF]: Prevent model overrides option is enabled! EMF will attempt to revert the new model [net.minecraft.class_615] back into the original model [net.minecraft.class_612]. THIS MAY HAVE UNINTENDED EFFECTS ON THE OTHER MOD, DISABLE THIS EMF SETTING IF IT CAUSES CRASHES!
+[10:26:17] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.puffer_fish.ambient
+[10:26:34] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: com.cobblemon.mod.common.client.gui.battle.BattleGUI
+[10:26:34] [Render thread/WARN]: Unable to play empty soundEvent: cobblemon:battle.pvw.default
+[10:27:03] [Render thread/INFO]: [System] [CHAT] Lanza una Poké Ball al Pokémon enemigo para capturarlo.
+[10:27:18] [Render thread/INFO]: [System] [CHAT] Ese Spearow no es un Pokémon salvaje.
+[10:28:15] [Server thread/INFO]: Saving and pausing game...
+[10:28:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:overworld
+[10:28:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_end
+[10:28:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_nether
+[10:38:35] [Server thread/INFO]: Saving and pausing game...
+[10:38:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:overworld
+[10:38:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_end
+[10:38:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_nether
+[10:38:37] [Render thread/INFO]: [voicechat] Clearing audio channels
+[10:38:37] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[10:38:37] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[10:38:37] [Render thread/INFO]: Minimap session finalized.
+[10:38:37] [Render thread/INFO]: Finalizing world map session...
+[10:38:37] [Thread-22/INFO]: World map force-cleaned!
+[10:38:37] [Render thread/INFO]: World map session finalized.
+[10:38:37] [Render thread/INFO]: Stopping JEI
+[10:38:37] [Render thread/INFO]: Stopping JEI
+[10:38:37] [Render thread/INFO]: Sending Runtime Unavailable...
+[10:38:37] [Render thread/INFO]: Stopping JEI GUI
+[10:38:37] [Render thread/INFO]: Sending Runtime Unavailable took 949.0 μs
+[10:38:37] [Server thread/INFO]: lorspi lost connection: Desconectado
+[10:38:37] [Server thread/INFO]: lorspi ha abandonado la partida
+[10:38:37] [Server thread/INFO]: [voicechat] Disconnecting client lorspi
+[10:38:37] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[10:38:37] [Server thread/INFO]: Stopping server
+[10:38:37] [Server thread/INFO]: Saving players
+[10:38:37] [Server thread/INFO]: Saving worlds
+[10:38:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:overworld
+[10:38:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_end
+[10:38:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Cobbled Farms]'/minecraft:the_nether
+[10:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (Tutorial World v2 (1.5.1)): All chunks are saved
+[10:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:38:38] [Server thread/INFO]: closing rrp ebe:base_resources
+[10:38:38] [Render thread/INFO]: Stopping worker threads
+[10:38:38] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:38:38] [Render thread/ERROR]: [FANCYMENU] Failed to read texture from file! File not found: D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\resources\cm_textures\exit_button.png
+[10:38:38] [Render thread/ERROR]: [FANCYMENU] Failed to read texture from file! File not found: D:\Aplicaciones\PolyMC\instances\Cobblemon by Mochos\.minecraft\resources\cm_textures\exit_hover.png
+[10:38:41] [Render thread/INFO]: ARRP register - before vanilla
+[10:38:41] [Render thread/INFO]: ARRP register - after vanilla
+[10:38:42] [Render thread/INFO]: Loaded 7 recipes
+[10:38:42] [Render thread/INFO]: Loaded 1592 advancements
+[10:38:43] [Render thread/INFO]: Loaded 936 moves
+[10:38:43] [Render thread/INFO]: Loaded 314 abilities
+[10:38:43] [Render thread/INFO]: Finished additions
+[10:38:45] [Render thread/INFO]: Imported 244 held item IDs from showdown
+[10:38:45] [Render thread/INFO]: Loaded 1025 Pokémon species
+[10:38:45] [Render thread/INFO]: Loaded 43 spawn detail presets.
+[10:38:45] [Render thread/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[10:38:45] [Render thread/INFO]: Loaded 15 fossils
+[10:38:45] [Render thread/INFO]: Loaded 69 berries
+[10:38:45] [Render thread/INFO]: closing rrp ebe:base_resources
+[10:38:45] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: create_world_screen
+[10:39:06] [Render thread/INFO]: ARRP register - before user
+[10:39:06] [Render thread/INFO]: ARRP register - before vanilla
+[10:39:06] [Render thread/INFO]: ARRP register - after vanilla
+[10:39:06] [Render thread/INFO]: Stopping JEI
+[10:39:06] [Render thread/INFO]: Stopping JEI
+[10:39:06] [Render thread/INFO]: Sending Runtime Unavailable...
+[10:39:06] [Render thread/INFO]: Stopping JEI GUI
+[10:39:06] [Render thread/INFO]: Sending Runtime Unavailable took 390.6 μs
+[10:39:06] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:39:06] [Render thread/INFO]: Applied 564 biome modifications to 64 of 64 new biomes in 7.279 ms
+[10:39:06] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[10:39:06] [Server thread/INFO]: Generating keypair
+[10:39:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:39:09] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:39:09] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:39:10] [Render thread/INFO]: Preparando zona de aparición: 0 %
+[10:39:10] [Render thread/INFO]: Preparando zona de aparición: 1 %
+[10:39:11] [Render thread/INFO]: Preparando zona de aparición: 3 %
+[10:39:11] [Render thread/INFO]: Preparando zona de aparición: 4 %
+[10:39:12] [Render thread/INFO]: Preparando zona de aparición: 6 %
+[10:39:12] [Render thread/INFO]: Preparando zona de aparición: 9 %
+[10:39:13] [Render thread/INFO]: Preparando zona de aparición: 12 %
+[10:39:13] [Render thread/INFO]: Preparando zona de aparición: 15 %
+[10:39:14] [Render thread/INFO]: Preparando zona de aparición: 17 %
+[10:39:14] [Render thread/INFO]: Preparando zona de aparición: 20 %
+[10:39:15] [Render thread/INFO]: Preparando zona de aparición: 22 %
+[10:39:15] [Render thread/INFO]: Preparando zona de aparición: 24 %
+[10:39:16] [Render thread/INFO]: Preparando zona de aparición: 29 %
+[10:39:16] [Render thread/INFO]: Preparando zona de aparición: 31 %
+[10:39:17] [Render thread/INFO]: Preparando zona de aparición: 34 %
+[10:39:17] [Render thread/INFO]: Preparando zona de aparición: 38 %
+[10:39:18] [Render thread/INFO]: Preparando zona de aparición: 42 %
+[10:39:18] [Render thread/INFO]: Preparando zona de aparición: 44 %
+[10:39:19] [Render thread/INFO]: Preparando zona de aparición: 49 %
+[10:39:19] [Render thread/INFO]: Preparando zona de aparición: 52 %
+[10:39:20] [Render thread/INFO]: Preparando zona de aparición: 56 %
+[10:39:20] [Render thread/INFO]: Preparando zona de aparición: 61 %
+[10:39:21] [Render thread/INFO]: Preparando zona de aparición: 65 %
+[10:39:21] [Render thread/INFO]: Preparando zona de aparición: 68 %
+[10:39:22] [Render thread/INFO]: Preparando zona de aparición: 71 %
+[10:39:22] [Render thread/INFO]: Preparando zona de aparición: 76 %
+[10:39:23] [Render thread/INFO]: Preparando zona de aparición: 81 %
+[10:39:23] [Render thread/INFO]: Preparando zona de aparición: 85 %
+[10:39:24] [Render thread/INFO]: Preparando zona de aparición: 89 %
+[10:39:24] [Render thread/INFO]: Preparando zona de aparición: 95 %
+[10:39:25] [Render thread/INFO]: Time elapsed: 15963 ms
+[10:39:25] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 65393
+[10:39:25] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:39:25] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[10:39:25] [Server thread/INFO]: lorspi[local:E:a9b621d5] logged in with entity id 2549 at (-192.5, 81.0, -31.5)
+[10:39:25] [Netty Local Client IO #1/INFO]: [showmeyourskin] Received config from server
+[10:39:25] [Netty Server IO #3/INFO]: [showmeyourskin] Client of lorspi accepted server config.
+[10:39:25] [Server thread/INFO]: Syncing config to lorspi (f8862d2c-39bb-4246-aacc-ce55a2fca150)
+[10:39:25] [Render thread/INFO]: New minimap session initialized!
+[10:39:25] [Render thread/INFO]: New world map session initialized!
+[10:39:25] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[10:39:25] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[10:39:25] [Server thread/INFO]: lorspi se ha unido a la partida
+[10:39:26] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[10:39:27] [Worker-Main-22/WARN]: Empty or non-existent pool: minecraft:ruins/forest_ruins_gate
+[10:39:27] [Worker-Main-22/WARN]: Empty or non-existent pool: minecraft:ruins/forest_ruins_gate
+[10:39:27] [Worker-Main-22/WARN]: Empty or non-existent pool: minecraft:ruins/forest_ruins_gate
+[10:39:29] [Render thread/INFO]: Started 6 worker threads
+[10:39:29] [Render thread/INFO]: on Client player join
+[10:39:29] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[10:39:29] [Server thread/INFO]: [voicechat] Received secret request of lorspi (18)
+[10:39:29] [Server thread/INFO]: [voicechat] Sent secret to lorspi
+[10:39:29] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[10:39:29] [Render thread/INFO]: Initializing Sound Physics
+[10:39:29] [Render thread/INFO]: EFX Extension recognized
+[10:39:29] [Render thread/INFO]: Max auxiliary sends: 2
+[10:39:29] [Render thread/INFO]: Aux slot 1 created
+[10:39:29] [Render thread/INFO]: Aux slot 2 created
+[10:39:29] [Render thread/INFO]: Aux slot 3 created
+[10:39:29] [Render thread/INFO]: Aux slot 4 created
+[10:39:29] [Render thread/INFO]: EFX ready
+[10:39:29] [Render thread/INFO]: Received config from the server: 
+[10:39:29] [Render thread/INFO]: [ShulkerBoxTooltip] Server integration enabled, attempting handshake...
+[10:39:29] [Netty Server IO #3/INFO]: [ShulkerBoxTooltip] lorspi: protocol version: 2.0
+[10:39:29] [Netty Local Client IO #1/INFO]: [ShulkerBoxTooltip] Handshake succeeded
+[10:39:29] [Netty Local Client IO #1/INFO]: [ShulkerBoxTooltip] Server protocol version: 2.0
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for START.
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] Plugins (9):
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for START.
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:39:29] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[10:39:29] [Render thread/INFO]: Starting JEI...
+[10:39:29] [Render thread/INFO]: Registering item subtypes...
+[10:39:29] [Render thread/INFO]: Registering item subtypes took 413.8 μs
+[10:39:29] [Render thread/INFO]: Registering fluid subtypes...
+[10:39:29] [Render thread/INFO]: Registering fluid subtypes took 877.3 μs
+[10:39:29] [Render thread/INFO]: Registering ingredients...
+[10:39:29] [Render thread/INFO]: Registering ingredients: jei:minecraft took 26.58 milliseconds
+[10:39:29] [Render thread/INFO]: Registering ingredients took 27.65 ms
+[10:39:29] [Render thread/INFO]: Registering categories...
+[10:39:29] [Render thread/INFO]: Registering categories took 8.704 ms
+[10:39:29] [Render thread/INFO]: Registering vanilla category extensions...
+[10:39:29] [Render thread/INFO]: Registering vanilla category extensions took 312.1 μs
+[10:39:30] [Render thread/INFO]: Registering recipe catalysts...
+[10:39:30] [Render thread/INFO]: Registering recipe catalysts took 370.7 μs
+[10:39:30] [Render thread/INFO]: Registering advanced plugins...
+[10:39:30] [Render thread/INFO]: Registering advanced plugins took 188.1 μs
+[10:39:30] [Render thread/INFO]: Building recipe registry...
+[10:39:30] [Render thread/INFO]: Building recipe registry took 2.493 ms
+[10:39:30] [Render thread/INFO]: Registering recipes...
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ========================================
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ========================================
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for START in 452.6 μs, totaling 12.19 ms.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for START in 807.0 μs, totaling 456.5 ms.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for START in 154.0 μs, totaling 1.850 ms.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ****************************************
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for END.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] Plugins (9):
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ****************************************
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for END.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REPClientPlugin of REPClientPlugin [roughlyenoughprofessions]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) OwoReiPlugin of OwoReiPlugin [owo]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REITooltipPlugin of REITooltipPlugin [appleskin]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:39:30] [Render thread/INFO]: Registering recipes: jei:minecraft took 385.5 milliseconds
+[10:39:30] [Render thread/INFO]: Registering recipes took 391.0 ms
+[10:39:30] [Render thread/INFO]: Registering recipes transfer handlers...
+[10:39:30] [Render thread/INFO]: Registering recipes transfer handlers took 362.3 μs
+[10:39:30] [Render thread/INFO]: Building runtime...
+[10:39:30] [Render thread/INFO]: Registering gui handlers...
+[10:39:30] [Render thread/INFO]: Registering gui handlers took 355.6 μs
+[10:39:30] [Render thread/INFO]: Registering Runtime...
+[10:39:30] [Render thread/INFO]: Starting JEI GUI
+[10:39:30] [Render thread/INFO]: Building ingredient list...
+[10:39:30] [Render thread/INFO]: Building ingredient list took 1.834 ms
+[10:39:30] [Render thread/INFO]: Building ingredient filter...
+[10:39:30] [Render thread/INFO]: Adding 1993 ingredients
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for END in 508.8 μs, totaling 5.025 ms.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for END in 544.5 μs, totaling 400.6 ms.
+[10:39:30] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for END in 236.8 μs, totaling 2.998 ms.
+[10:39:30] [Render thread/INFO]: Added 1993 ingredients
+[10:39:30] [Render thread/INFO]: Building ingredient filter took 176.9 ms
+[10:39:30] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 213.7 milliseconds
+[10:39:30] [Render thread/INFO]: Registering Runtime took 214.1 ms
+[10:39:30] [Render thread/INFO]: Building runtime took 215.1 ms
+[10:39:30] [Render thread/INFO]: Sending Runtime...
+[10:39:30] [Render thread/INFO]: Sending Runtime took 243.1 μs
+[10:39:30] [Render thread/INFO]: Starting JEI took 656.0 ms
+[10:39:30] [Render thread/INFO]: Stopping JEI
+[10:39:30] [Render thread/INFO]: Stopping JEI
+[10:39:30] [Render thread/INFO]: Sending Runtime Unavailable...
+[10:39:30] [Render thread/INFO]: Stopping JEI GUI
+[10:39:30] [Render thread/INFO]: Sending Runtime Unavailable took 162.4 μs
+[10:39:30] [Render thread/INFO]: Starting JEI...
+[10:39:30] [Render thread/INFO]: Registering item subtypes...
+[10:39:30] [Render thread/INFO]: Registering item subtypes took 161.0 μs
+[10:39:30] [Render thread/INFO]: Registering fluid subtypes...
+[10:39:30] [Render thread/INFO]: Registering fluid subtypes took 121.5 μs
+[10:39:30] [Render thread/INFO]: Registering ingredients...
+[10:39:30] [Render thread/INFO]: Registering ingredients: jei:minecraft took 11.39 milliseconds
+[10:39:30] [Render thread/INFO]: Registering ingredients took 11.77 ms
+[10:39:30] [Render thread/INFO]: Registering categories...
+[10:39:30] [Render thread/INFO]: Registering categories took 553.7 μs
+[10:39:30] [Render thread/INFO]: Registering vanilla category extensions...
+[10:39:30] [Render thread/INFO]: Registering vanilla category extensions took 155.7 μs
+[10:39:30] [Render thread/INFO]: Registering recipe catalysts...
+[10:39:30] [Render thread/INFO]: Registering recipe catalysts took 148.2 μs
+[10:39:30] [Render thread/INFO]: Registering advanced plugins...
+[10:39:30] [Render thread/INFO]: Registering advanced plugins took 178.0 μs
+[10:39:30] [Render thread/INFO]: Building recipe registry...
+[10:39:30] [Render thread/INFO]: Building recipe registry took 267.0 μs
+[10:39:30] [Render thread/INFO]: Registering recipes...
+[10:39:30] [Render thread/INFO]: Registering recipes: jei:minecraft took 163.0 milliseconds
+[10:39:30] [Render thread/INFO]: Registering recipes took 166.6 ms
+[10:39:30] [Render thread/INFO]: Registering recipes transfer handlers...
+[10:39:30] [Render thread/INFO]: Registering recipes transfer handlers took 340.4 μs
+[10:39:30] [Render thread/INFO]: Building runtime...
+[10:39:30] [Render thread/INFO]: Registering gui handlers...
+[10:39:30] [Render thread/INFO]: Registering gui handlers took 314.6 μs
+[10:39:30] [Render thread/INFO]: Registering Runtime...
+[10:39:30] [Render thread/INFO]: Starting JEI GUI
+[10:39:30] [Render thread/INFO]: Building ingredient list...
+[10:39:30] [Render thread/INFO]: Building ingredient list took 713.2 μs
+[10:39:30] [Render thread/INFO]: Building ingredient filter...
+[10:39:30] [Render thread/INFO]: Adding 1993 ingredients
+[10:39:30] [Render thread/INFO]: Added 1993 ingredients
+[10:39:30] [Render thread/INFO]: Building ingredient filter took 106.7 ms
+[10:39:30] [Render thread/INFO]: Registering Runtime: jei:fabric_gui took 132.6 milliseconds
+[10:39:30] [Render thread/INFO]: Registering Runtime took 133.1 ms
+[10:39:30] [Render thread/INFO]: Building runtime took 133.6 ms
+[10:39:30] [Render thread/INFO]: Sending Runtime...
+[10:39:30] [Render thread/INFO]: Sending Runtime took 396.1 μs
+[10:39:30] [Render thread/INFO]: Starting JEI took 316.3 ms
+[10:39:31] [Render thread/INFO]: Loading all registered leaf blocks.
+[10:39:31] [Render thread/INFO]: Minimap updated server level id: 161298202 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[10:39:31] [Render thread/INFO]: Loaded 2 advancements
+[10:39:31] [Render thread/INFO]: [voicechat] Received secret
+[10:39:31] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '127.0.0.1:65393'
+[10:39:31] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[10:39:31] [Render thread/INFO]: [System] [CHAT] [Simple Voice Chat] Pulse Sin asignar para configurar
+[10:39:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f8862d2c-39bb-4246-aacc-ce55a2fca150
+[10:39:31] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[10:39:31] [Render thread/INFO]: Stopping worker threads
+[10:39:31] [Render thread/INFO]: Started 6 worker threads
+[10:39:32] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[10:39:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f8862d2c-39bb-4246-aacc-ce55a2fca150
+[10:39:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player lorspi (f8862d2c-39bb-4246-aacc-ce55a2fca150) successfully connected to voice chat
+[10:39:32] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[10:39:37] [Server thread/INFO]: [lorspi: Modo de juego cambiado a Modo creativo]
+[10:39:37] [Render thread/INFO]: [System] [CHAT] Modo de juego cambiado a Modo creativo
+[10:40:01] [Render thread/INFO]: [System] [CHAT] No se ha encontrado una estructura del tipo «cobblemon:village_plains_pokecenter» cerca
+[10:40:09] [Render thread/INFO]: [System] [CHAT] No se ha encontrado una estructura del tipo «cobblemon:village_plains_pokecenter_signtest» cerca
+[10:41:47] [Server thread/INFO]: Saving and pausing game...
+[10:41:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[10:41:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[10:41:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[10:41:47] [Render thread/INFO]: [voicechat] Clearing audio channels
+[10:41:47] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[10:41:47] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[10:41:47] [Render thread/INFO]: Minimap session finalized.
+[10:41:47] [Render thread/INFO]: Finalizing world map session...
+[10:41:47] [Thread-22/INFO]: World map force-cleaned!
+[10:41:47] [Render thread/INFO]: World map session finalized.
+[10:41:47] [Render thread/INFO]: Stopping JEI
+[10:41:47] [Render thread/INFO]: Stopping JEI
+[10:41:47] [Render thread/INFO]: Sending Runtime Unavailable...
+[10:41:47] [Render thread/INFO]: Stopping JEI GUI
+[10:41:47] [Render thread/INFO]: Sending Runtime Unavailable took 632.3 μs
+[10:41:47] [Server thread/INFO]: lorspi lost connection: Desconectado
+[10:41:47] [Server thread/INFO]: lorspi ha abandonado la partida
+[10:41:47] [Server thread/INFO]: [voicechat] Disconnecting client lorspi
+[10:41:47] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[10:41:47] [Server thread/INFO]: Stopping server
+[10:41:47] [Server thread/INFO]: Saving players
+[10:41:47] [Server thread/INFO]: Saving worlds
+[10:41:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[10:41:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[10:41:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[10:41:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mundo nuevo): All chunks are saved
+[10:41:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:41:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:41:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:41:50] [Server thread/INFO]: closing rrp ebe:base_resources
+[10:41:50] [Render thread/INFO]: Stopping worker threads
+[10:41:50] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:43:51] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: join_multiplayer_screen
+[10:43:54] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: edit_server_screen
+[10:50:29] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[10:50:29] [Render thread/INFO]: Stopping!
+[10:50:29] [Render thread/INFO]: Config is saved.
+[10:50:29] [Render thread/INFO]: Loaded 0 hold_to_aim item patterns from configuration
+[10:50:29] [Render thread/INFO]: Loaded 0  use_to_aim item patterns from configuration
+[10:50:29] [Render thread/INFO]: Loaded 0 use_to_first_person item patterns from configuration
+[10:50:29] [Render thread/INFO]: Stopping JEI
+[10:50:29] [Render thread/INFO]: Stopping JEI
+[10:50:29] [Render thread/INFO]: Sending Runtime Unavailable...
+[10:50:29] [Render thread/INFO]: Stopping JEI GUI
+[10:50:29] [Render thread/INFO]: Sending Runtime Unavailable took 4.121 ms
+[10:50:29] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[10:50:30] [Render thread/INFO]: closing rrp ebe:base_resources
