@@ -1,0 +1,22 @@
+{
+  "chosenPreset": 0,
+  "apiPreset": -1,
+  "loadedPresets": [
+    {
+      "skin": {
+        "skin_name": "457811351",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "Unnamed Preset"
+    },
+    {
+      "skin": {
+        "skin_name": "422167128",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "lorspi"
+    }
+  ]
+}

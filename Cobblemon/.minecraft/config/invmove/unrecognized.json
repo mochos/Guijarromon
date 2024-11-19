@@ -8,12 +8,24 @@
     "me.shedaniel.clothconfig2.gui.ClothConfigScreen": false,
     "net.minecraft.class_434": false,
     "com.cobblemon.mod.common.client.gui.pc.PCGUI": false,
-    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": false
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": false,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": false,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": false,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": false,
+    "xaero.map.gui.GuiMap": false,
+    "com.cobblemon.mod.common.client.gui.startselection.StarterSelectionScreen": false,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": false,
+    "earth.terrarium.cadmus.client.claims.ClaimScreen": false,
+    "com.terraformersmc.modmenu.gui.ModsScreen": false
   },
   "hideBackground": {
     "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
     "com.cobblemon.mod.common.client.gui.summary.Summary": true,
     "com.cobblemon.mod.common.client.gui.pc.PCGUI": true,
-    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": true
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
+    "earth.terrarium.cadmus.client.claims.ClaimScreen": true
   }
 }

@@ -1,5 +1,10 @@
 {
-	"favorites": [],
+	"favorites": [
+		"{data:{Count:1b,id:\"minecraft:oak_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:oak_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:oak_fence\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:jungle_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
 	"hiddenFavorites": [],
 	"displays": []
 }

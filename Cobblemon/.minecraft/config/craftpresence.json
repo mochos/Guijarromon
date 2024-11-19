@@ -1,6 +1,4 @@
 {
-  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
   "_schemaVersion": 6,
   "_lastMCVersionId": 763,
   "generalSettings": {
@@ -16,7 +14,6 @@
     "clientId": "1042681781775769610",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
-    "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
@@ -29,6 +26,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -55,6 +55,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -75,6 +78,9 @@
         "data": {
           "enabled": false,
           "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "{player.name} is in The Nether",
           "gameState": "",
           "largeImageKey": "nether",
@@ -95,6 +101,9 @@
         "data": {
           "enabled": false,
           "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "{player.name} is in The Overworld",
           "gameState": "",
           "largeImageKey": "overworld",
@@ -115,6 +124,9 @@
         "data": {
           "enabled": false,
           "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "{player.name} is in The End",
           "gameState": "",
           "largeImageKey": "end",
@@ -143,6 +155,9 @@
         "data": {
           "enabled": true,
           "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "Playing on {server.name} with {server.players.current} players",
           "gameState": "Playing Online",
           "largeImageKey": "{server.icon}",
@@ -159,7 +174,9 @@
           }
         }
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -167,6 +184,9 @@
       "data": {
         "enabled": true,
         "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "{player.name} is deciding a game mode",
         "gameState": "In the Main Menu",
         "largeImageKey": "cobblemon_icon",
@@ -188,6 +208,9 @@
       "data": {
         "enabled": true,
         "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "Cobblemon is loading",
         "gameState": "Game Starting...",
         "largeImageKey": "cobblemon_icon",
@@ -209,6 +232,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -230,6 +256,9 @@
       "data": {
         "enabled": true,
         "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "{player.name} is on a Pokémon journey",
         "gameState": "Playing Solo",
         "largeImageKey": "cobblemon_icon",
@@ -245,6 +274,9 @@
           }
         }
       }
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
     }
   },
   "advancedSettings": {
@@ -264,6 +296,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -284,6 +319,9 @@
           "data": {
             "enabled": true,
             "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "{player.name} is looking for a Realm",
             "gameState": "Browsing Realms",
             "largeImageKey": "cobblemon_icon",
@@ -304,6 +342,9 @@
           "data": {
             "enabled": true,
             "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "{player.name} is browsing servers",
             "gameState": "Searching for Other Trainers",
             "largeImageKey": "cobblemon_icon",
@@ -324,6 +365,9 @@
           "data": {
             "enabled": true,
             "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "{player.name} is joining a game",
             "gameState": "Joining Game...",
             "largeImageKey": "cobblemon_icon",
@@ -344,6 +388,9 @@
           "data": {
             "enabled": true,
             "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "{player.name} is joining a game",
             "gameState": "Joining Game...",
             "largeImageKey": "cobblemon_icon",
@@ -373,6 +420,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -396,6 +446,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -418,65 +471,24 @@
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/%1$s",
     "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
     "allowDuplicatePackets": false,
-    "maxConnectionAttempts": 10
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": false
   },
   "accessibilitySettings": {
-    "tooltipBackground": {
-      "start": {
-        "red": 16,
-        "green": 0,
-        "blue": 16,
-        "alpha": 240
-      }
-    },
-    "tooltipBorder": {
-      "start": {
-        "red": 80,
-        "green": 0,
-        "blue": 255,
-        "alpha": 80
-      },
-      "end": {
-        "red": 40,
-        "green": 0,
-        "blue": 127,
-        "alpha": 80
-      }
-    },
-    "guiBackground": {
-      "start": {
-        "red": 64,
-        "green": 64,
-        "blue": 64,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/options_background.png"
-    },
-    "altGuiBackground": {
-      "start": {
-        "red": 16,
-        "green": 16,
-        "blue": 16,
-        "alpha": 192
-      },
-      "end": {
-        "red": 16,
-        "green": 16,
-        "blue": 16,
-        "alpha": 208
-      }
-    },
     "languageId": "en_us",
     "stripTranslationColors": false,
     "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
-    "renderTooltips": true,
     "configKeyCode": -1
   },
   "displaySettings": {
     "presenceData": {
       "enabled": true,
       "useAsMain": true,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
       "details": "Playing Cobblemon",
       "gameState": "",
       "largeImageKey": "cobblemon_icon",

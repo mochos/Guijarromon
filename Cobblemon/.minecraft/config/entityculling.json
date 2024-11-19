@@ -1,13 +1,13 @@
 {
-  "configVersion": 5,
+  "configVersion": 6,
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "create:rope_pulley",
     "minecraft:beacon",
     "create:hose_pulley",
     "betterend:eternal_pedestal",
-	"cobblemon:healer",
-	"cobblemon:pc"
+    "cobblemon:healer",
+    "cobblemon:pc"
   ],
   "entityWhitelist": [
     "botania:mana_burst"
@@ -20,7 +20,12 @@
   "tickCulling": true,
   "tickCullingWhitelist": [
     "minecraft:boat",
-    "minecraft:firework_rocket"
+    "minecraft:firework_rocket",
+    "mts:builder_existing",
+    "mts:builder_rendering",
+    "mts:builder_seat"
   ],
-  "disableF3": false
+  "disableF3": false,
+  "skipEntityCulling": false,
+  "skipBlockEntityCulling": false
 }
