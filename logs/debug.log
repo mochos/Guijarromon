@@ -1,0 +1,416 @@
+[17:57:19] [main/INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.20.1 Banner 1.20.1-778 with Fabric Loader 0.16.7
+[17:57:21] [main/INFO] [FabricLoader]: Loading 136 mods:
+	- almanac 1.0.2
+	- architectury 9.2.14
+	- argonauts 1.0.10
+	   \-- placeholder-api 2.1.1+1.20
+	- balm-fabric 7.3.9
+	   \-- kuma_api 20.1.8
+	- banner 1.20.1-778
+	   |-- banner-api 1.20.1-778
+	   |-- banner-bukkit-manager 1.20.1-778
+	   |-- banner-stackdeobf 1.20.1-778
+	   \-- banner-transitive-access-wideners 1.20.1-778
+	- bookshelf 20.2.13
+	- cadmus 1.0.8
+	   \-- common-protection-api 1.0.0
+	- cicada 0.9.1+1.20.1
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.4
+	- cobblemon 1.5.2+1.20.1
+	- collective 7.87
+	- cosmetic-armor 1.6.0
+	- craftingtweaks 18.2.5
+	- emotecraft 2.2.7-b.build.50
+	   |-- bendy-lib 4.0.0
+	   \-- player-animator 1.0.2-rc1+1.20
+	- entityculling 1.7.1
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.7
+	   \-- mixinextras 0.4.1
+	- faster_entity_animations 1.6
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.1
+	- fusion 1.1.1
+	- iceberg 1.1.25
+	- java 21
+	- konkrete 1.8.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lazydfu 0.1.3
+	- letmedespawn 1.4.4
+	- melody 1.0.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- netherportalfix 13.0.1
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- roughlyenoughitems 12.1.785
+	   \-- error_notifier 1.0.9
+	- roughlysearchable 2.6.0+1.20.1
+	- shulkerboxtooltip 4.0.4+1.20.1
+	- sophisticatedbackpacks 1.20.1-3.20.11.26
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_loot 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_lazy_registration 2.3.2+1.20.1
+	   |-- porting_lib_model_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_tool_actions 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- sophisticatedcore 1.20.1-0.6.35.49
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- toms_storage 1.6.8
+	- trinkets 3.7.1
+	   |-- cardinal-components-base 5.2.0
+	   \-- cardinal-components-entity 5.2.0
+	- voicechat 1.20.1-2.5.26
+	   \-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	- waystones 14.1.6
+	- xaerominimap 24.6.1
+	- xaeroworldmap 1.39.0
+	- yet_another_config_lib_v3 3.6.1+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[17:57:25] [main/INFO] [FabricLoader/Mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/E:/Compartidos/Contenidos%20Perry-lorspi/Cobblemon/Servidor/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:57:25] [main/INFO] [FabricLoader/Mixin]: Compatibility level set to JAVA_17
+[17:57:26] [main/INFO] [BannerMC]:  _____       ___   __   _   __   _   _____   _____   
+[17:57:26] [main/INFO] [BannerMC]: |  _  \     /   | |  \ | | |  \ | | | ____| |  _  \  
+[17:57:26] [main/INFO] [BannerMC]: | |_| |    / /| | |   \| | |   \| | | |__   | |_| |  
+[17:57:26] [main/INFO] [BannerMC]: |  _  {   / / | | | |\   | | |\   | |  __|  |  _  /  
+[17:57:26] [main/INFO] [BannerMC]: | |_| |  / /  | | | | \  | | | \  | | |___  | | \ \  
+[17:57:26] [main/INFO] [BannerMC]: |_____/ /_/   |_| |_|  \_| |_|  \_| |_____| |_|  \_\ 
+[17:57:26] [main/INFO] [BannerMC]: Bienvenido a Banner 1.20.1 - 1.20.1-778, Java 65.0
+[17:57:27] [main/INFO] [BannerMC]: Injecting into root logger...
+[17:57:27] [main/WARN] [BannerMC]: By enabling mojang mappings, you agree to their license:
+[17:57:27] [main/WARN] [BannerMC]: (c) 2020 Microsoft Corporation.These mappings are provided "as-is" and you bear the risk of using them.
+[17:57:27] [main/WARN] [BannerMC]: You may copy and use the mappings for development purposes, but you may not redistribute the mappings complete and unmodified.
+[17:57:27] [main/WARN] [BannerMC]: Microsoft makes no warranties, express or implied, with respect to the mappings provided here.
+[17:57:27] [main/WARN] [BannerMC]: Use and modification of this document or the source code (in any form) of Minecraft: Java Edition is governed by
+[17:57:27] [main/WARN] [BannerMC]: the Minecraft End User License Agreement available at https://account.mojang.com/documents/minecraft_eula.
+[17:57:27] [main/INFO] [BannerMC]: Creating asynchronous mapping cache executor...
+[17:57:27] [Mappings Cache Thread/INFO] [BannerMC]: Verifying cache of mojang mappings...
+[17:57:27] [Mappings Cache Thread/INFO] [BannerMC]: Verified cache of mojang mappings (took 1ms)
+[17:57:27] [Mappings Cache Thread/INFO] [BannerMC]: Parsing mojang mappings...
+[17:57:27] [main/WARN] [FabricLoader/Mixin]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:57:28] [main/WARN] [FabricLoader/Mixin]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[17:57:28] [main/WARN] [FabricLoader/Mixin]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[17:57:31] [main/WARN] [FabricLoader/Mixin]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[17:57:31] [main/WARN] [FabricLoader/Mixin]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[17:57:33] [main/WARN] [FabricLoader/Mixin]: Error loading class: me/shedaniel/rei/impl/client/config/ConfigObjectImpl (java.lang.RuntimeException: Cannot load class me.shedaniel.rei.impl.client.config.ConfigObjectImpl in environment type SERVER)
+[17:57:33] [main/WARN] [FabricLoader/Mixin]: @Mixin target me.shedaniel.rei.impl.client.config.ConfigObjectImpl was not found roughlysearchable.mixins.json:ConfigObjectMixin from mod roughlysearchable
+[17:57:33] [main/WARN] [FabricLoader/Mixin]: Error loading class: net/minecraft/class_918 (java.lang.ClassNotFoundException: net/minecraft/class_918)
+[17:57:33] [main/WARN] [FabricLoader/Mixin]: @Mixin target net.minecraft.class_918 was not found roughlysearchable.mixins.json:ItemRendererMixin from mod roughlysearchable
+[17:57:33] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[17:57:33] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]: Parsed mojang mappings (took 8440ms)
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]: Caching mojang mappings...
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]: Cached mojang mappings (took 123ms)
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]: Cached mappings have been built (took 8590ms)
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]:  Classes: 4945
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]:  Methods: 26367
+[17:57:35] [Mappings Cache Thread/INFO] [BannerMC]:  Fields: 23166
+[17:57:35] [ForkJoinPool.commonPool-worker-1/INFO] [BannerMC]: Shutting down asynchronous mapping cache executor...
+[17:57:35] [ForkJoinPool.commonPool-worker-1/INFO] [BannerMC]: Cargando librer�as, espera por favor...
+[17:57:35] [main/INFO] [FabricLoader/MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:57:41] [main/WARN] [FabricLoader/Mixin]: Static binding violation: PRIVATE @Overwrite method respawnEntityOnShoulder in banner.server.mixins.json:world.entity.player.MixinPlayer from mod banner cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17:57:47] [main/WARN] [FabricLoader/Mixin]: Static binding violation: PRIVATE @Overwrite method doClick in banner.server.mixins.json:world.inventory.MixinAbstractContainerMenu from mod banner cannot reduce visibiliy of PROTECTED target method, visibility will be upgraded.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[17:58:10] [main/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[17:58:11] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[17:58:11] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Launching Cobblemon 1.5.2 
+[17:58:11] [Cicada thread 0/INFO] [cicada]: [cicada] Hello, anyone there?
+[17:58:12] [main/ERROR] [net.minecraft.class_156]: No data fixer registered for cobblemon:pokemon
+[17:58:12] [main/ERROR] [net.minecraft.class_156]: No data fixer registered for cobblemon:empty_pokeball
+[17:58:12] [main/ERROR] [net.minecraft.class_156]: No data fixer registered for cobblemon:boat
+[17:58:12] [main/ERROR] [net.minecraft.class_156]: No data fixer registered for cobblemon:chest_boat
+[17:58:12] [main/ERROR] [net.minecraft.class_156]: No data fixer registered for cobblemon:generic_bedrock
+[17:58:14] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Starting the Best Spawner...
+[17:58:14] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 5 spawning condition types.
+[17:58:14] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 5 spawning context types.
+[17:58:14] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 1 spawn detail types.
+[17:58:15] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon]: Starting showdown service...
+[17:58:29] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon]: Showdown has been started!
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:species_features registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:global_species_features registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:species_feature_assignments registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:action_effects registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:moves registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:abilities registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:species registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:species_additions registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:pokeballs registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:properties_tab_completion registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:spawn_detail_presets registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:spawn_rules registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:mechanics registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:bag_items registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:dialogues registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:natural_materials registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:fossils registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:spawn_pool_world registry
+[17:58:29] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Registered the cobblemon:berries registry
+[17:58:29] [main/INFO] [Collective]: Loading Collective version 7.87.
+[17:58:30] [main/INFO] [de.keksuccino.konkrete.Konkrete]: [KONKRETE] Successfully initialized!
+[17:58:30] [main/INFO] [de.keksuccino.konkrete.Konkrete]: [KONKRETE] Server-side libs ready to use!
+[17:58:30] [main/INFO] [me.steinborn.krypton.mod.shared.KryptonSharedInitializer]: Compression will use Java, encryption will use Java
+[17:58:30] [main/INFO] [de.keksuccino.melody.Melody]: [MELODY] Disabling Melody since it's loaded server-side.
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider REICompat [sophisticatedbackpacks] for REIPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider REICompat [sophisticatedbackpacks] for REIServerPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[17:58:31] [main/INFO] [REI]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items
+[17:58:31] [main/INFO] [dev.architectury.networking.fabric.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[17:58:32] [main/ERROR] [net.minecraft.class_156]: No data fixer registered for 
+[17:58:32] [main/INFO] [com.tom.storagemod.StorageMod]: Config loaded
+[17:58:32] [main/INFO] [com.tom.storagemod.StorageMod]: Tom's Storage Setup starting
+[17:58:33] [main/INFO] [voicechat]: [voicechat] Compatibility version 18
+[17:58:33] [main/INFO] [voicechat]: [voicechat] Loading plugins
+[17:58:33] [main/INFO] [voicechat]: [voicechat] Loaded 0 plugin(s)
+[17:58:33] [main/INFO] [voicechat]: [voicechat] Initializing plugins
+[17:58:33] [main/INFO] [voicechat]: [voicechat] Initialized 0 plugin(s)
+[17:58:33] [main/INFO] [banner]: Registrando Banner Event Dispatchers...
+[17:58:33] [main/INFO] [me.steinborn.krypton.mod.server.KryptonServerInitializer]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:58:33] [main/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[17:58:33] [main/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 1/2 (Server)
+[17:58:34] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:58:36] [main/INFO] [FabricRegistrySync]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[17:58:38] [main/INFO] [net.minecraft.class_1863]: Loaded 8 recipes
+[17:58:38] [main/INFO] [net.minecraft.class_163]: Loaded 1659 advancements
+[17:58:42] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 936 moves
+[17:58:42] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 314 abilities
+[17:58:43] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Finished additions
+[17:58:44] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Imported 244 held item IDs from showdown
+[17:58:44] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 1025 Pokémon species
+[17:58:44] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 43 spawn detail presets.
+[17:58:44] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Starting dummy Showdown battle to force it to pre-load data.
+[17:58:44] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 15 fossils
+[17:58:45] [main/INFO] [com.cobblemon.mod.common.Cobblemon]: Loaded 69 berries
+[17:58:45] [main/INFO] [net.blay09.mods.craftingtweaks.registry.JsonCompatLoader]: toms_storage has registered com.tom.storagemod.gui.CraftingTerminalMenu for CraftingTweaks via data pack
+[17:58:45] [main/INFO] [REI]: [REI] ****************************************
+[17:58:45] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for START.
+[17:58:45] [main/INFO] [REI]: [REI] Plugins (4):
+[17:58:45] [main/INFO] [REI]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) REICompat of REICompat [sophisticatedbackpacks]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI] ****************************************
+[17:58:45] [main/INFO] [REI]: [REI] ****************************************
+[17:58:45] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for START.
+[17:58:45] [main/INFO] [REI]: [REI] Plugins (4):
+[17:58:45] [main/INFO] [REI]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) REICompat of REICompat [sophisticatedbackpacks]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI] ****************************************
+[17:58:45] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for START in 1.098 ms, totaling 204.0 ms.
+[17:58:45] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for START in 491.4 μs, totaling 5.466 ms.
+[17:58:45] [main/INFO] [REI]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[17:58:45] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for END.
+[17:58:45] [main/INFO] [REI]: [REI] Plugins (4):
+[17:58:45] [main/INFO] [REI]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) REICompat of REICompat [sophisticatedbackpacks]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[17:58:45] [main/INFO] [REI]: [REI] ========================================
+[17:58:45] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for END.
+[17:58:45] [main/INFO] [REI]: [REI] Plugins (4):
+[17:58:45] [main/INFO] [REI]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) REICompat of REICompat [sophisticatedbackpacks]
+[17:58:45] [main/INFO] [REI]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:58:45] [main/INFO] [REI]: [REI] ========================================
+[17:58:45] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for END in 571.2 μs, totaling 128.4 ms.
+[17:58:45] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for END in 307.7 μs, totaling 10.58 ms.
+[17:58:46] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl]: Applied 597 biome modifications to 64 of 64 new biomes in 55.74 ms
+[17:58:47] [Server thread/INFO] [net.minecraft.class_3176]: Starting minecraft server version 1.20.1
+[17:58:47] [Server thread/INFO] [net.minecraft.class_3176]: Loading properties
+[17:58:47] [Server thread/INFO] [net.minecraft.class_3176]: Default game type: SURVIVAL
+[17:58:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[17:58:47] [Server thread/INFO] [net.minecraft.class_3176]: Starting Minecraft server on *:25565
+[17:58:47] [Server thread/INFO] [net.minecraft.class_3242]: Using default channel type
+[17:58:48] [Server thread/INFO] [Minecraft]: This server is running Banner version 1.20.1-778 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[17:58:49] [Server thread/INFO] [banner]: Registering for Bukkit ...
+[17:58:49] [Server thread/INFO] [banner]: Registered 579 new items
+[17:58:49] [Server thread/INFO] [banner]: Registered 214 new blocks
+[17:58:50] [Server thread/INFO] [banner]: Cargando Bukkit plugins, por favor espera...
+[17:58:50] [Server thread/INFO] [Minecraft]: Debug logging is disabled
+[17:58:50] [Server thread/INFO] []: Server Ping Player Sample Count: 12
+[17:58:50] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[17:58:51] [Server thread/INFO] [com.mohistmc.banner.plugin.BannerPlugin]: [BannerPlugin] Loading BannerPlugin v1.20.1-778
+[17:58:51] [Server thread/INFO] [net.minecraft.class_3176]: Preparing level "world"
+[17:58:54] [Server thread/WARN] [banner]: File has been existed while create symlink
+[17:58:54] [Server thread/WARN] [banner]: File has been existed while create symlink
+[17:58:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparando la regi�n inicial para la dimensi�n minecraft:overworld
+[17:58:57] [Worker-Main-8/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:57] [Worker-Main-8/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:57] [Worker-Main-8/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:57] [Worker-Main-8/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:57] [Worker-Main-4/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:57] [Worker-Main-5/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:58] [Worker-Main-2/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:58] [Worker-Main-4/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:58] [Worker-Main-11/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:59] [Worker-Main-2/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:58:59] [Worker-Main-1/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:59:00] [Worker-Main-11/INFO] [net.minecraft.class_3951]: Preparing spawn area: 0%
+[17:59:00] [Worker-Main-5/INFO] [net.minecraft.class_3951]: Preparing spawn area: 4%
+[17:59:01] [Worker-Main-11/INFO] [net.minecraft.class_3951]: Preparing spawn area: 4%
+[17:59:01] [Worker-Main-8/INFO] [net.minecraft.class_3951]: Preparing spawn area: 4%
+[17:59:03] [Worker-Main-7/INFO] [net.minecraft.class_3951]: Preparing spawn area: 9%
+[17:59:03] [Worker-Main-5/INFO] [net.minecraft.class_3951]: Preparing spawn area: 9%
+[17:59:03] [Worker-Main-7/INFO] [net.minecraft.class_3951]: Preparing spawn area: 9%
+[17:59:04] [Worker-Main-9/INFO] [net.minecraft.class_3951]: Preparing spawn area: 25%
+[17:59:04] [Worker-Main-2/INFO] [net.minecraft.class_3951]: Preparing spawn area: 25%
+[17:59:04] [Worker-Main-8/INFO] [net.minecraft.class_3951]: Preparing spawn area: 55%
+[17:59:05] [Worker-Main-11/INFO] [net.minecraft.class_3951]: Preparing spawn area: 89%
+[17:59:05] [Server thread/INFO] [net.minecraft.class_3951]: Time elapsed: 11012 ms
+[17:59:05] [Server thread/INFO] [com.mohistmc.banner.plugin.BannerPlugin]: [BannerPlugin] Activando BannerPlugin v1.20.1-778
+[17:59:05] [Server thread/INFO] [com.mohistmc.banner.plugin.BannerPlugin]: [BannerPlugin] Banner Plugin is enabled.
+[17:59:06] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[17:59:06] [Server thread/INFO] [net.minecraft.class_3176]: Done (15.841s)! For help, type "help"
+[17:59:06] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs]: Registered synced player tracker system: argonauts
+[17:59:06] [Server thread/INFO] [xaero.map.WorldMap]: Registered synced player tracker system: argonauts
+[17:59:06] [VoiceChatServerThread/INFO] [voicechat]: [voicechat] Voice chat server started at port 24454
+[17:59:06] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[17:59:06] [Server thread/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 2/2 (Server)
+[17:59:26] [User Authenticator #1/INFO] [net.minecraft.class_3248]: UUID of player lorspi is f8862d2c-39bb-4246-aacc-ce55a2fca150
+[17:59:26] [Server thread/INFO] [net.minecraft.class_3324]: lorspi[/127.0.0.1:51054] logged in with entity id 231 at (19.472258114798866, 71.0, -11.29670079528399)
+[17:59:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: lorspi joined the game
+[17:59:32] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of lorspi (18)
+[17:59:32] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to lorspi
+[17:59:32] [Server thread/INFO] [ShulkerBoxTooltip]: [ShulkerBoxTooltip] lorspi: protocol version: 2.0
+[17:59:32] [Server thread/INFO] [ShulkerBoxTooltip Plugins]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[17:59:32] [Server thread/INFO] [ShulkerBoxTooltip Plugins]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
+[17:59:34] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully authenticated player f8862d2c-39bb-4246-aacc-ce55a2fca150
+[17:59:35] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully validated connection of player f8862d2c-39bb-4246-aacc-ce55a2fca150
+[17:59:35] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Player lorspi (f8862d2c-39bb-4246-aacc-ce55a2fca150) successfully connected to voice chat
+[18:00:08] [Server thread/INFO] [net.minecraft.class_3244]: lorspi lost connection: Disconnected
+[18:00:08] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client lorspi
+[18:00:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: lorspi left the game
+[18:00:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
+[18:00:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:00:15] [Server thread/INFO] [com.mohistmc.banner.plugin.BannerPlugin]: [BannerPlugin] Desactivando BannerPlugin v1.20.1-778
+[18:00:15] [Server thread/INFO] [com.mohistmc.banner.plugin.BannerPlugin]: [BannerPlugin] Banner Plugin is disabled!
+[18:00:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:00:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:00:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:00:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:00:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:00:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:00:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:00:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:00:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:00:37] [Exit Thread/INFO] [banner]: 3 threads not shutting down correctly, force exiting

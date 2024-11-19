@@ -1,0 +1,3 @@
+Cambiando la configuraci�n de abajo a true estar�as aceptando el EULA (https://account.mojang.com/documents/minecraft_eula).
+2024-11-18
+eula=true
