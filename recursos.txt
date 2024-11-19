@@ -1,0 +1,7 @@
+Para poder cargar archivos de mas de 100 megas.
+
+Descargar Git:
+https://git-scm.com/downloads/win
+
+Instalar Git LFS:
+https://www.youtube.com/watch?v=4Ln6iRh_LTo
