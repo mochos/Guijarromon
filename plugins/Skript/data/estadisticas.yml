@@ -1,0 +1,88 @@
+itemsop:
+    brisa:
+        caida:
+            total: 300
+            player: 74
+            lorspi: 79
+            elPantallazoAzul: 97
+            ShakalChapa: 50
+        ataque:
+            total: 178
+            player: 17
+            elPantallazoAzul: 64
+            lorspi: 97
+        impulso:
+            total: 614
+            lorspi: 336
+            elPantallazoAzul: 180
+            ShakalChapa: 98
+    taladro:
+        total: 46
+        lorspi: 46
+    lanzacohetes:
+        total: 199
+        lorspi: 149
+        elPantallazoAzul: 42
+        ShakalChapa: 8
+    cofreender:
+        total: 15
+        lorspi: 14
+        elPantallazoAzul: 1
+    panmadre:
+        total: 2
+        elPantallazoAzul: 2
+
+matrimonio:
+    chat:
+        total: 4
+        lorspi: 2
+        elPantallazoAzul: 2
+    teleportar:
+        total: 5
+        lorspi: 3
+        elPantallazoAzul: 2
+    regalo:
+        total: 34
+        lorspi: 3
+        elPantallazoAzul: 31
+    divorcio:
+        total: 4
+        lorspi: 3
+        elPantallazoAzul: 1
+    unir:
+        total: 7
+        lorspi: 6
+        elPantallazoAzul: 1
+    pvp:
+        total: 12
+        lorspi: 8
+        elPantallazoAzul: 4
+
+fuentedeseos:
+    dinero:
+        total: 24
+        lorspi: 24
+    diamantes:
+        total: 54
+        lorspi: 54
+    escombro:
+        total: 46
+        lorspi: 46
+    lanzacohetes:
+        total: 16
+        lorspi: 16
+    instaminador:
+        total: 26
+        lorspi: 26
+    nocumplido:
+        total: 85
+        lorspi: 85
+    brisa:
+        total: 20
+        lorspi: 20
+    filetes:
+        total: 39
+        lorspi: 39
+    enderportatil:
+        total: 19
+        lorspi: 19

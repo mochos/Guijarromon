@@ -1,0 +1,384 @@
+# Capturador de criaturas -------------------------------------------------------------------------
+on shoot:
+    if projectile is snowball:
+        shooter is a player
+        name of shooter's tool is "&6&lCapturador de criaturas"
+        # Estadisticas
+        load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+        #------------
+        set {_usos} to yaml value "itemsop.capturador.lanzar.total" from "estadisticas"
+        if {_usos} is not set:
+            set {_usos} to 0
+        add 1 to {_usos}
+        set yaml value "itemsop.capturador.lanzar.total" from "estadisticas" to {_usos}
+        #------------
+        set {_player} to shooter
+        set {_usosplayer} to yaml value "itemsop.capturador.lanzar.%{_player}%" from "estadisticas"
+        if {_usosplayer} is not set:
+            set {_usosplayer} to 0
+        add 1 to {_usosplayer}
+        set yaml value "itemsop.capturador.lanzar.%{_player}%" from "estadisticas" to {_usosplayer}
+        #------------
+        wait 1 tick
+        save yaml "estadisticas"
+
+
+# no encuentro como validar esto. Lo golpea pero no le hace daño. ¿como se valida? No sirve click o leftclick.
+on damage of entity:
+    attacker is a player
+    if name of attacker's tool is "&6&lCapturador de criaturas":
+        #send "&a¡Has golpeado una entidad con el Capturador de criaturas!" to attacker
+        # Estadisticas
+        load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+        #------------
+        set {_usos} to yaml value "itemsop.capturador.golpear.total" from "estadisticas"
+        if {_usos} is not set:
+            set {_usos} to 0
+        add 1 to {_usos}
+        set yaml value "itemsop.capturador.golpear.total" from "estadisticas" to {_usos}
+        #------------
+        set {_player} to attacker
+        set {_usosplayer} to yaml value "itemsop.capturador.golpear.%{_player}%" from "estadisticas"
+        if {_usosplayer} is not set:
+            set {_usosplayer} to 0
+        add 1 to {_usosplayer}
+        set yaml value "itemsop.capturador.golpear.%{_player}%" from "estadisticas" to {_usosplayer}
+        #------------
+        wait 1 tick
+        save yaml "estadisticas"
+
+
+# Cofre de ender portátil -------------------------------------------------------------------------
+
+#/itemname &d&lCofre de ender portátil
+#/itemlore add &fUn solo uso
+# Poner encantamiento oculto
+
+on rightclick with echo shard:
+    if name of player's tool contains "&d&lCofre de ender portátil":
+        remove 1 of echo shard named "&d&lCofre de ender portátil" from player's inventory
+        play sound "block.ender_chest.open" with volume 1 to the player
+        open player's ender chest to the player
+        # Estadisticas
+        load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+        #------------
+        set {_usos} to yaml value "itemsop.cofreender.total" from "estadisticas"
+        if {_usos} is not set:
+            set {_usos} to 0
+        add 1 to {_usos}
+        set yaml value "itemsop.cofreender.total" from "estadisticas" to {_usos}
+        #------------
+        set {_player} to player
+        set {_usosplayer} to yaml value "itemsop.cofreender.%{_player}%" from "estadisticas"
+        if {_usosplayer} is not set:
+            set {_usosplayer} to 0
+        add 1 to {_usosplayer}
+        set yaml value "itemsop.cofreender.%{_player}%" from "estadisticas" to {_usosplayer}
+        #------------
+        wait 1 tick
+        save yaml "estadisticas"
+
+
+# Mesa de crafteo portátil --------------------------------------------------------------------------
+
+# Pendiente
+# Usos limitados
+
+
+#Instaminador -------------------------------------------------------------------------------------------
+
+#/itemname &9&lInstaminador
+#/itemlore add &fRompe un radio de 3x3 bloques
+#/itemlore add &cNo reparable - No encantable
+# Poner una versión con eficiencia 5
+
+on block break:
+    if name of player's tool contains "&9&lInstaminador":
+        damage player's tool by 3
+        # Estadisticas
+        load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+        #------------
+        set {_usos} to yaml value "itemsop.taladro.total" from "estadisticas"
+        if {_usos} is not set:
+            set {_usos} to 0
+        add 1 to {_usos}
+        set yaml value "itemsop.taladro.total" from "estadisticas" to {_usos}
+        #------------
+        set {_player} to player
+        set {_usosplayer} to yaml value "itemsop.taladro.%{_player}%" from "estadisticas"
+        if {_usosplayer} is not set:
+            set {_usosplayer} to 0
+        add 1 to {_usosplayer}
+        set yaml value "itemsop.taladro.%{_player}%" from "estadisticas" to {_usosplayer}
+        #------------
+        wait 1 tick
+        save yaml "estadisticas"
+        loop blocks in radius 1.8 of event-block:
+            if loop-block is stone or cobblestone or obsidian or deepslate or netherrack or tuff or andesite or diorite or granite or smooth basalt or calcite or any terracotta or end_stone:
+                drop loop-block
+                set loop-block to air
+                play sound "dig.stone" with volume 1 to player
+                wait 1 ticks
+
+#Evita reparar con comando
+on command "/repair":
+    if player don't have the permission "skript.admin":
+        if name of player's tool contains "&9&lInstaminador" or "&3&lBrisa Tempestuosa":
+            cancel event
+            message "&cNo puedes reparar esta herramienta."
+
+#Evita reparar o encantar con yunque
+on anvil prepare:
+    if name of event-item contains "&9&lInstaminador" or "&3&lBrisa Tempestuosa" or "&7&lLanzacohetes":
+        set repair cost of event-inventory to 999
+
+#Evita reparar con mending
+on item mend:
+    if name of event-item contains "&9&lInstaminador" or "&3&lBrisa Tempestuosa" or "&7&lLanzacohetes":
+        cancel the event
+        send "&cNo puedes reparar esta herramienta." to player
+
+#Evita encantar con mesa de encantamientos
+on enchant:  
+    if name of event-item contains "&9&lInstaminador" or "&3&lBrisa Tempestuosa" or "&7&lLanzacohetes":
+        cancel event
+        message "&cNo puedes encantar esta herramienta."
+
+#Brisa Tempestuosa -------------------------------------------------------------------------------------------
+
+#/itemname &3&lBrisa Tempestuosa
+#/itemlore add &fInfringe más daño al atacar en caída
+#/itemlore add &fEvita el daño por caída desde alturas no letales
+#/itemlore add &fÚsala para impulsarte hacia arriba
+#/itemlore add &cNo reparable - No encantable
+
+on join:
+    set {items.impulso.%player%} to false
+    remove jump boost from player
+
+# Por qué al caer desde muy alto no cancela el daño? Se buggea mucho. A veces si lo cancela. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+on damage with priority lowest:
+    if damage cause is fall:
+        if name of victim's tool contains "&3&lBrisa Tempestuosa":
+            cancel the event
+            wait 1 tick
+            damage victim's tool by 3
+            # Estadisticas
+            load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+            #------------
+            set {_usos} to yaml value "itemsop.brisa.caida.total" from "estadisticas"
+            if {_usos} is not set:
+                set {_usos} to 0
+            add 1 to {_usos}
+            set yaml value "itemsop.brisa.caida.total" from "estadisticas" to {_usos}
+            #------------
+            set {_player} to victim
+            set {_usosplayer} to yaml value "itemsop.brisa.caida.%{_player}%" from "estadisticas"
+            if {_usosplayer} is not set:
+                set {_usosplayer} to 0
+            add 1 to {_usosplayer}
+            set yaml value "itemsop.brisa.caida.%{_player}%" from "estadisticas" to {_usosplayer}
+            #------------
+            wait 1 tick
+            save yaml "estadisticas"
+            #unload yaml "estadisticas"
+
+#Supersalto al sostener el hacha en la mano
+on any movement:
+    if name of player's tool contains "&3&lBrisa Tempestuosa":
+        if player don't have potion jump boost:
+            apply potion of jump boost 4 to player for 5 seconds            
+
+# Evento: Al hacer clic derecho con el hacha
+on right click with axe:
+    if name of player's tool contains "&3&lBrisa Tempestuosa":
+        if {items.impulso.%player%} is false:
+            wait 1 tick
+            damage player's tool by 6
+            push player up at speed 1.2
+            set {items.impulso.%player%} to true
+            play explosion emitter at location of player to all players
+            loop all entities in radius 6 around player:
+                play sound "entity.wither.shoot" with volume 1 at location of player to all players
+                push loop-entity direction from player to loop-entity at speed 1
+                push loop-entity up at speed 0.7
+            wait 3 seconds
+            set {items.impulso.%player%} to false
+            play sound "block.note_block.chime" with volume 1 to the player
+            send action bar "&a&l¡Impulso de salto disponible!" to player
+            # Estadisticas
+            load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+            #------------
+            set {_usos} to yaml value "itemsop.brisa.impulso.total" from "estadisticas"
+            if {_usos} is not set:
+                set {_usos} to 0
+            add 1 to {_usos}
+            set yaml value "itemsop.brisa.impulso.total" from "estadisticas" to {_usos}
+            #------------
+            set {_player} to player
+            set {_usosplayer} to yaml value "itemsop.brisa.impulso.%{_player}%" from "estadisticas"
+            if {_usosplayer} is not set:
+                set {_usosplayer} to 0
+            add 1 to {_usosplayer}
+            set yaml value "itemsop.brisa.impulso.%{_player}%" from "estadisticas" to {_usosplayer}
+            #------------
+            wait 1 tick
+            save yaml "estadisticas"
+
+# Evento: Al golpear una entidad con el hacha mientras cae
+on damage of entity:
+    attacker is a player
+    if name of attacker's tool contains "&3&lBrisa Tempestuosa":
+        if fall distance of attacker is greater than 0:
+            set {_damage} to damage * fall distance of attacker
+            set {_altura} to fall distance of attacker
+            damage attacker's tool by 6
+            damage victim by {_damage} - damage
+            # La siguiente línea empuja al jugador proporcionalmente a la altora del ataque
+            # Hubo que nerfearla hasta que el daño por caída sea resuelto
+            #push attacker up at speed {_altura} / 5
+            push attacker up at speed 2
+            heal attacker
+            play explosion emitter at location of attacker to all players
+            # Estadisticas
+            load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+            #------------
+            set {_usos} to yaml value "itemsop.brisa.ataque.total" from "estadisticas"
+            if {_usos} is not set:
+                set {_usos} to 0
+            add 1 to {_usos}
+            set yaml value "itemsop.brisa.ataque.total" from "estadisticas" to {_usos}
+            #------------
+            set {_player} to attacker
+            set {_usosplayer} to yaml value "itemsop.brisa.ataque.%{_player}%" from "estadisticas"
+            if {_usosplayer} is not set:
+                set {_usosplayer} to 0
+            add 1 to {_usosplayer}
+            set yaml value "itemsop.brisa.ataque.%{_player}%" from "estadisticas" to {_usosplayer}
+            #------------
+            wait 1 tick
+            save yaml "estadisticas"
+            loop all entities in radius 6 around victim:
+                if loop-entity is not victim:
+                    play sound "entity.wither.hurt" with volume 1 at location of attacker to all players
+                    push loop-entity direction from attacker to loop-entity at speed 1
+                    push loop-entity up at speed 0.7
+
+# Lanzazohetes ------------------------------------------------------------------------------------------------------
+
+#/itemname &7&lLanzacohetes
+#/itemlore add &fCausa una explosión en el punto de impacto
+#/itemlore add &fEmpuja entidades al explotar
+#/itemlore add &fDurabilidad limitada / Cooldown 10 segundos
+#/itemlore add &cNo reparable - No encantable
+
+on projectile hit:
+    if name of shooter's tool contains "&7&lLanzacohetes":
+        if {arcosop.%shooter%} is true:
+            send action bar "&cDebes esperar a que se recargue el arco." to shooter
+            stop
+        else:
+            # Estadisticas
+            load yaml "plugins/Skript/data/estadisticas.yml" as "estadisticas"
+            #------------
+            set {_usos} to yaml value "itemsop.lanzacohetes.total" from "estadisticas"
+            if {_usos} is not set:
+                set {_usos} to 0
+            add 1 to {_usos}
+            set yaml value "itemsop.lanzacohetes.total" from "estadisticas" to {_usos}
+            #------------
+            set {_player} to shooter
+            set {_usosplayer} to yaml value "itemsop.lanzacohetes.%{_player}%" from "estadisticas"
+            if {_usosplayer} is not set:
+                set {_usosplayer} to 0
+            add 1 to {_usosplayer}
+            set yaml value "itemsop.lanzacohetes.%{_player}%" from "estadisticas" to {_usosplayer}
+            #------------
+            wait 1 tick
+            save yaml "estadisticas"
+            damage shooter's tool by 20
+            create an explosion of force 1.4 at the projectile
+            delete projectile
+            #create a fake explosion at the projectile
+            loop all entities in radius 6 around projectile:
+                if loop-entity is not victim:
+                    push loop-entity direction from projectile to loop-entity at speed 1
+                    push loop-entity up at speed 1
+            set {arcosop.%shooter%} to true
+            send action bar "Recargando arco..." to shooter
+            wait 10 seconds
+            set {arcosop.%shooter%} to false
+            send action bar "&a&lArco recargado" to shooter
+            play sound "block.note_block.chime" with volume 1 to the shooter
+            stop
+
+# --------------------------------------------------------------------------------------------------------------------
+
+# Comando para guardar itemOP en variable
+
+command /guardaritemop <string> [<string>]:
+    permission: skript.admin
+    executable by: players
+    usage: "Guarda en variable global el Item OP con /guardaritemop <brisa, lanzacohetes, instaminador, cofreender, capturador>"
+    description: "Guarda en variable un Item OP para su posterior uso mediante Skript."
+    trigger:
+        if arg-2 is not set:
+            if player's held item is not air:
+                if arg-1 contains "brisa" or "lanzacohetes" or "instaminador" or "cofreender" or "capturador" or "masamadre" or "pancrudo" or "panmadre":
+                    if {itemsop::%arg-1%} is set:
+                        send "&b[ItemsOP] &fLa variable de &7%arg-1% &fya existe, utiliza &a/guardaritemop %arg-1% borrar&7." to player
+                        stop
+                    set {itemsop::%arg-1%} to player's tool
+                    send "&b[ItemsOP] &fHas guardado: &7%{itemsop::%arg-1%}% &fen variable global."
+                    stop
+                else:
+                    send "&b[ItemsOP] &fOpciones: brisa, lanzacohetes, instaminador, cofreender, capturador." to player
+            else:
+                send "&b[ItemsOP] &cNo tienes nada en la mano." to player
+        else if arg-2 contains "borrar":
+            clear {itemsop::%arg-1%}
+            send "&b[ItemsOP] &fVariable de &7%arg-1% &feliminada satisfactoriamente." to player
+
+# Comando para recibir itemOP desde variable
+
+command /daritemop <string>:
+    permission: skript.admin
+    trigger:
+        if {itemsop::%arg-1%} is not set:
+            send "&b[ItemsOP] &fEse item OP no está guardado." to player
+            stop
+        give {itemsop::%arg-1%} to player
+        send "&b[ItemsOP] &aHas recibido %{itemsop::%arg-1%}%" to player
+
+# --------------------------------------------------------------------------------------------------------------------
+
+#/itemname &e&lDesproteger el Mundito
+#/itemlore add &fAbre el Mundito a cualquier persona
+#/itemlore add &fDespués de 5 minutos se vuelve a proteger
+
+on consume of potion:
+    if name of player's tool is "&e&lDesproteger el Mundito":
+        send "&cHas desactivado la prodección del Mundito por 5 minutos" to player
+        play sound "ui.toast.in" with volume 3 to the player
+        execute console command "whitelist off"
+        wait 5 minutes
+        execute console command "whitelist on"
+        send "&aSe ha vuelto a activar la protección del Mundito." to player
+        play sound "ui.toast.out" with volume 3 to the player
+
+
+#/itemname &e&lPoción de bienvenida
+#/itemlore add &fBébela si entraste por primera vez al Mundito
+#/itemlore add &cSi no la bebes, no podrás entrar nuevamente
+
+on consume of potion:
+    if name of player's tool is "&e&lPoción de bienvenida":
+        send "&a¡Bienvenid@ al Mundito!" to player
+        play sound "ui.toast.challenge_complete" with volume 3 to the player
+        execute console command "whitelist add %player%"
+        wait 5 seconds
+        execute console command "whitelist on"
+
+
+# --------------------------------------------------------------------------------------------------------------------
+

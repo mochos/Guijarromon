@@ -1,0 +1,53 @@
+on load:
+    set {amaneciendo} to false
+
+on bed enter:
+    wait 1 tick
+    if time is night:
+        loop all players:
+            if loop-player is not player:
+                send formatted "&e%player% está durmiendo. ¡Va a amanecer pronto! Escribe &f/no&e o da <tooltip:&fCancelar amanecer><command:/no>&b&lclick aquí<reset>&e para cancelar." to loop-player
+        send "&e¡Al dormir causaras que amanezca para todos! Levántate de la cama antes de 10 segundos para cancelar el amannecer." to player
+        set {sleep.cancel} to false
+        wait 10 seconds
+        if {sleep.cancel} is false:
+            set {amaneciendo} to true
+            while time is not day:
+                add 60 ticks to time in world
+                wait 1 ticks
+            set {amaneciendo} to false
+            broadcast "&e¡Ha amanecido!"
+
+on bed leave:
+    #if time is night and !{amaneciendo}:
+    if time is night:
+        make player execute command "/no"
+
+#Cosas que me gustarían:
+# - El jugador no se levanta de la cama automáticamente como sucede ahora.
+# - El jugador que duerme no ve el mensaje de cancelar.
+# - El jugador que duerme cancela el amanecer si se levanta de la cama.
+
+command /no:
+    trigger:
+        if {sleep.cancel} is false:
+            set {sleep.cancel} to true
+            broadcast "&c¡El amanecer ha sido cancelado por %player%!"
+        else:
+            send "&c¡Ya no puedes cancelar el amanecer!" to player
+
+command /dia:
+    permission: mundito.admin
+    trigger:
+        while time is not day:
+            add 60 ticks to time
+            wait 1 ticks
+        broadcast "&e¡Los dioses nos han regalado la luz de un nuevo día!"
+
+command /noche:
+    permission: mundito.admin
+    trigger:
+        while time is day:
+            add 60 ticks to time
+            wait 1 ticks
+        broadcast "&e¡Los dioses nos han regalado este atardecer!"
